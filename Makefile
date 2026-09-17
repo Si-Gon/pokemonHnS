@@ -122,6 +122,9 @@ CPPFLAGS := -iquote include -iquote $(GFLIB_SUBDIR) -Wno-trigraphs -DMODERN=$(MO
 ifneq ($(MODERN),1)
 CPPFLAGS += -I tools/agbcc/include -I tools/agbcc -nostdinc -undef
 endif
+# GCC 15+ tiene C23 por defecto, y el proceso va en dos etapas (cpp y luego cc1): hay que fijar
+# el estandar en LAS DOS, o el preprocesado mete cabeceras de C23 (nullptr) que cc1 no entiende.
+override CPPFLAGS += -std=gnu17
 
 SHA1 := $(shell { command -v sha1sum || command -v shasum; } 2>/dev/null) -c
 GFX := tools/gbagfx/gbagfx$(EXE)
