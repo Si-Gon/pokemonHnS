@@ -2179,61 +2179,59 @@ static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style, bool8 act
 
 static void DrawChoices_Options_Four(const u8 *const *const strings, int selection, int y, bool8 active)
 {
-    static const u8 choiceOrders[][3] =
-    {
-        {0, 1, 2},
-        {0, 1, 2},
-        {1, 2, 3},
-        {1, 2, 3},
-    };
-    u8 styles[4] = {0};
-    int xMid;
-    const u8 *order = choiceOrders[selection];
-    styles[selection] = 1;
-    xMid = GetMiddleX(strings[order[0]], strings[order[1]], strings[order[2]]);
-
-    DrawOptionMenuChoice(strings[order[0]], 104, y, styles[order[0]], active);
-    DrawOptionMenuChoice(strings[order[1]], xMid, y, styles[order[1]], active);
-    DrawOptionMenuChoice(strings[order[2]], GetStringRightAlignXOffset(1, strings[order[2]], 198), y, styles[order[2]], active);
+    DrawChoiceRowFrom(strings, 4, selection, y, active, 3);
 }
 
 
 static void DrawChoices_Options_Three(const u8 *const *const strings, int selection, int y, bool8 active)
 {
-    static const u8 choiceOrders[][2] =
-    {
-        {0, 1},
-        {1, 2},
-        {1, 2},
-    };
-    u8 styles[3] = {0};
-    const u8 *order = choiceOrders[selection];
-    styles[selection] = 1;
-
-    DrawOptionMenuChoice(strings[order[0]], 104, y, styles[order[0]], active);
-    DrawOptionMenuChoice(strings[order[1]], GetStringRightAlignXOffset(1, strings[order[1]], 198), y, styles[order[1]], active);
+    DrawChoiceRowFrom(strings, 3, selection, y, active, 2);
 }
 
 
+// Dibuja los valores de una opcion midiendo cada texto antes de colocarlo.
+// Si no caben todos, muestra solo los que entran: nunca se solapan.
+#define CHOICE_X_START 104
+#define CHOICE_X_END   198
+#define CHOICE_GAP     6
+#define CHOICE_MAX     6
+
+static void DrawChoiceRowFrom(const u8 *const *strings, int count, int selection, int y, bool8 active, int showCount)
+{
+    u32 widths[CHOICE_MAX];
+    int idx[CHOICE_MAX];
+    int n = 0;
+    int i, x, total;
+
+    if (count > CHOICE_MAX)
+        count = CHOICE_MAX;
+
+    for (i = 0; i < count && n < showCount; i++)
+        idx[n++] = (selection + i) % count;
+
+    for (i = 0; i < n; i++)
+        widths[i] = GetStringWidth(FONT_NORMAL, strings[idx[i]], 0);
+
+    while (n > 1)
+    {
+        total = 0;
+        for (i = 0; i < n; i++)
+            total += (int)widths[i] + CHOICE_GAP;
+        if (total - CHOICE_GAP <= CHOICE_X_END - CHOICE_X_START)
+            break;
+        n--;
+    }
+
+    for (i = 0, x = CHOICE_X_START; i < n; i++)
+    {
+        DrawOptionMenuChoice(strings[idx[i]], x, y, (idx[i] == selection), active);
+        x += (int)widths[i] + CHOICE_GAP;
+    }
+}
+
 static void DrawChoices_Options_Five(const u8 *const *const strings, int selection, int y, bool8 active)
 {
-    static const u8 choiceOrders[][3] =
-    {
-        {0, 1, 2},
-        {0, 1, 2},
-        {1, 2, 3},
-        {2, 3, 4},
-        {2, 3, 4},
-    };
-    u8 styles[5] = {0};
-    int xMid;
-    const u8 *order = choiceOrders[selection];
-    styles[selection] = 1;
-    xMid = GetMiddleX(strings[order[0]], strings[order[1]], strings[order[2]]);
-
-    DrawOptionMenuChoice(strings[order[0]], 104, y, styles[order[0]], active);
-    DrawOptionMenuChoice(strings[order[1]], xMid, y, styles[order[1]], active);
-    DrawOptionMenuChoice(strings[order[2]], GetStringRightAlignXOffset(1, strings[order[2]], 198), y, styles[order[2]], active);
+    DrawChoiceRowFrom(strings, 5, selection, y, active, 3);
 }
 
 static void ReDrawAll(void)
@@ -2288,11 +2286,9 @@ static const u8 *const sText_Mode_Strings[] = {sClassic,  sCustom};
 static void DrawChoices_Mode_Classic_Modern_Selector(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_MODE_CLASSIC_MODERN);
-    u8 styles[2] = {0};
-    styles[selection] = 1;
 
-    DrawOptionMenuChoice(sClassic, 74, y, styles[0], active);
-    DrawOptionMenuChoice(sCustom, GetStringRightAlignXOffset(1, sCustom, 198), y, styles[1], active);
+    static const u8 *const rowStrings[] = {sClassic, sCustom};
+    DrawChoiceRowFrom(rowStrings, 2, selection, y, active, 2);
     
     if (selection == 0)
     {
@@ -2491,10 +2487,8 @@ static const u8 sText_Nuzlocke_Deletion[]  = _("LIBERAR");
 static void DrawChoices_Nuzlocke_Deletion(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_NUZLOCKE_DELETION);
-    u8 styles[2] = {0};
-    styles[selection] = 1;
-    DrawOptionMenuChoice(sText_Nuzlocke_Cemetery, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_Nuzlocke_Deletion, GetStringRightAlignXOffset(1, sText_Nuzlocke_Deletion, 198), y, styles[1], active);
+    static const u8 *const rowStrings[] = {sText_Nuzlocke_Cemetery, sText_Nuzlocke_Deletion};
+    DrawChoiceRowFrom(rowStrings, 2, selection, y, active, 2);
 }
 static void DrawChoices_Nuzlocke_RareCandy(int selection, int y)
 {
@@ -2533,13 +2527,9 @@ static const u8 sText_ScalingIVsEVs_Hard[]      = _("DIFÍCIL");
 static void DrawChoices_Challenges_ScalingIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_SCALING_IVS);
-    u8 styles[3] = {0};
-    int xMid = GetMiddleX(sText_Off, sText_ScalingIVsEVs_Scaling, sText_ScalingIVsEVs_Hard);
-    styles[selection] = 1;
 
-    DrawOptionMenuChoice(sText_Off, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_ScalingIVsEVs_Scaling, xMid, y, styles[1], active);
-    DrawOptionMenuChoice(sText_ScalingIVsEVs_Hard, GetStringRightAlignXOffset(1, sText_ScalingIVsEVs_Hard, 198), y, styles[2], active);
+    static const u8 *const rowStrings[] = {sText_Off, sText_ScalingIVsEVs_Scaling, sText_ScalingIVsEVs_Hard};
+    DrawChoiceRowFrom(rowStrings, 3, selection, y, active, 3);
 }
 static const u8 sText_ScalingIVsEVs_Extrem[]    = _("EXTREMO");
 static const u8 *const sText_ScalingEVs_Strings[] = {sText_Off, sText_ScalingIVsEVs_Scaling, sText_ScalingIVsEVs_Hard, sText_ScalingIVsEVs_Extrem};
@@ -2560,12 +2550,8 @@ static void DrawChoices_Challenges_PartyLimit(int selection, int y)
     u8 styles[6] = {0};
     styles[selection] = 1;
 
-    DrawOptionMenuChoice(sText_Off, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_Challenges_PartyLimit_5, 130, y, styles[1], active);
-    DrawOptionMenuChoice(sText_Challenges_PartyLimit_4, 146, y, styles[2], active);
-    DrawOptionMenuChoice(sText_Challenges_PartyLimit_3, 161, y, styles[3], active);
-    DrawOptionMenuChoice(sText_Challenges_PartyLimit_2, 176, y, styles[4], active);
-    DrawOptionMenuChoice(sText_Challenges_PartyLimit_1, 192, y, styles[5], active);
+    static const u8 *const rowStrings[] = {sText_Off, sText_Challenges_PartyLimit_5, sText_Challenges_PartyLimit_4, sText_Challenges_PartyLimit_3, sText_Challenges_PartyLimit_2, sText_Challenges_PartyLimit_1};
+    DrawChoiceRowFrom(rowStrings, 6, selection, y, active, 6);
 }
 
 static const u8 sText_Challenges_LevelCap_Normal[]  = _("NORMAL");
@@ -2573,13 +2559,9 @@ static const u8 sText_Challenges_LevelCap_Hard[]    = _("DIFÍCIL");
 static void DrawChoices_Challenges_LevelCap(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_LEVEL_CAP);
-    u8 styles[3] = {0};
-    int xMid = GetMiddleX(sText_Off, sText_Challenges_LevelCap_Normal, sText_Challenges_LevelCap_Hard);
-    styles[selection] = 1;
 
-    DrawOptionMenuChoice(sText_Off, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_Challenges_LevelCap_Normal, xMid, y, styles[1], active);
-    DrawOptionMenuChoice(sText_Challenges_LevelCap_Hard, GetStringRightAlignXOffset(1, sText_Challenges_LevelCap_Hard, 198), y, styles[2], active);
+    static const u8 *const rowStrings[] = {sText_Off, sText_Challenges_LevelCap_Normal, sText_Challenges_LevelCap_Hard};
+    DrawChoiceRowFrom(rowStrings, 3, selection, y, active, 3);
 }
 
 static const u8 sText_Challenges_ExpMultiplier_1_0[]   = _("x1.0");
@@ -2610,13 +2592,9 @@ static const u8 sText_Challenges_EvoLimit_All[]     = _("TODO");
 static void DrawChoices_Challenges_EvoLimit(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_CHALLENGES_EVO_LIMIT);
-    u8 styles[3] = {0};
-    int xMid = GetMiddleX(sText_Off, sText_Challenges_EvoLimit_First, sText_None);
-    styles[selection] = 1;
 
-    DrawOptionMenuChoice(sText_Off, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_Challenges_EvoLimit_First, xMid, y, styles[1], active);
-    DrawOptionMenuChoice(sText_Challenges_EvoLimit_All, GetStringRightAlignXOffset(1, sText_Challenges_EvoLimit_All, 198), y, styles[2], active);
+    static const u8 *const rowStrings[] = {sText_Off, sText_Challenges_EvoLimit_First, sText_Challenges_EvoLimit_All};
+    DrawChoiceRowFrom(rowStrings, 3, selection, y, active, 3);
 }
 
 static void DrawChoices_Challenges_OneTypeChallenge(int selection, int y)
@@ -2741,9 +2719,6 @@ static const u8 sText_Max_Party_IVs_30_31[]   = _("NO (HP)");
 static void DrawChoices_Challenges_MaxPartyIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_MAX_PARTY_IVS);
-    u8 styles[3] = {0};
-    int xMid = GetMiddleX(sText_Yes, sText_No, sText_Max_Party_IVs_30_31);
-    styles[selection] = 1;
 
 
 
@@ -2761,9 +2736,8 @@ static void DrawChoices_Challenges_MaxPartyIVs(int selection, int y)
     }
 
 
-    DrawOptionMenuChoice(sText_Yes, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_No, xMid, y, styles[1], active);
-    DrawOptionMenuChoice(sText_Max_Party_IVs_30_31, GetStringRightAlignXOffset(1, sText_Max_Party_IVs_30_31, 198), y, styles[2], active);
+    static const u8 *const rowStrings[] = {sText_Yes, sText_No, sText_Max_Party_IVs_30_31};
+    DrawChoiceRowFrom(rowStrings, 3, selection, y, active, 3);
 }
 
 static void DrawChoices_Features_ItemDrop(int selection, int y)
@@ -2960,8 +2934,6 @@ static void DrawChoices_Mode_Mints(int selection, int y)
 static void DrawChoices_Mode_New_Citrus(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_MODE_NEW_CITRUS);
-    u8 styles[2] = {0};
-    styles[selection] = 1;
 
     if (selection == 0)
     {
@@ -2972,8 +2944,8 @@ static void DrawChoices_Mode_New_Citrus(int selection, int y)
         gSaveBlock1Ptr->tx_Mode_New_Citrus = 1; //Yes new citrus
     }
 
-    DrawOptionMenuChoice(sText_Encounters_Vanilla_Long, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_Encounters_Modern_Long, GetStringRightAlignXOffset(1, sText_Encounters_Modern_Long, 198), y, styles[1], active);
+    static const u8 *const rowStrings[] = {sText_Encounters_Vanilla_Long, sText_Encounters_Modern_Long};
+    DrawChoiceRowFrom(rowStrings, 2, selection, y, active, 2);
 }
 
 /*static void DrawChoices_Mode_Modern_Types(int selection, int y)
@@ -3055,8 +3027,6 @@ static void DrawChoices_Mode_Sturdy(int selection, int y)
 static void DrawChoices_Mode_Modern_Moves(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_MODE_MODERN_MOVES);
-    u8 styles[2] = {0};
-    styles[selection] = 1;
 
     if (selection == 0)
     {
@@ -3067,8 +3037,8 @@ static void DrawChoices_Mode_Modern_Moves(int selection, int y)
         gSaveBlock1Ptr->tx_Mode_Modern_Moves = 1; //New movepool, and moves
     }
 
-    DrawOptionMenuChoice(sText_Encounters_Vanilla_Long, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_Encounters_Modern_Long, GetStringRightAlignXOffset(1, sText_Encounters_Modern_Long, 198), y, styles[1], active);
+    static const u8 *const rowStrings[] = {sText_Encounters_Vanilla_Long, sText_Encounters_Modern_Long};
+    DrawChoiceRowFrom(rowStrings, 2, selection, y, active, 2);
 }
 
 /*static void DrawChoices_Mode_New_Effectiveness(int selection, int y)
