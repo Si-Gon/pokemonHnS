@@ -8,7 +8,7 @@ gText_FollowerDefault::
 	.string "ERROR 404: Script no encontrado.$"
 
 gText_WantsToFly::
-	.string "{STR_VAR_1} looks up at the\nsky restlessly.\pWould you like to use FLY?$"
+	.string "{STR_VAR_1} mira el cielo\ncon inquietud.\p¿Quieres usar VUELO?$"
 
 .macro playfirstmoncry
 callfunc ScrFunc_playfirstmoncry
