@@ -1346,44 +1346,54 @@ static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style, bool8 act
     DrawRightSideChoiceText(text, x, y+1, choosen, active);
 }
 
+// Dibuja los valores de una opcion midiendo cada texto antes de colocarlo.
+// Si no caben todos, muestra solo los que entran: nunca se solapan.
+#define CHOICE_X_START 104
+#define CHOICE_X_END   198
+#define CHOICE_GAP     6
+#define CHOICE_MAX     6
+
+static void DrawChoiceRowFrom(const u8 *const *strings, int count, int selection, int y, bool8 active, int showCount)
+{
+    u32 widths[CHOICE_MAX];
+    int idx[CHOICE_MAX];
+    int n = 0;
+    int i, x, total;
+
+    if (count > CHOICE_MAX)
+        count = CHOICE_MAX;
+
+    for (i = 0; i < count && n < showCount; i++)
+        idx[n++] = (selection + i) % count;
+
+    for (i = 0; i < n; i++)
+        widths[i] = GetStringWidth(FONT_NORMAL, strings[idx[i]], 0);
+
+    while (n > 1)
+    {
+        total = 0;
+        for (i = 0; i < n; i++)
+            total += (int)widths[i] + CHOICE_GAP;
+        if (total - CHOICE_GAP <= CHOICE_X_END - CHOICE_X_START)
+            break;
+        n--;
+    }
+
+    for (i = 0, x = CHOICE_X_START; i < n; i++)
+    {
+        DrawOptionMenuChoice(strings[idx[i]], x, y, (idx[i] == selection), active);
+        x += (int)widths[i] + CHOICE_GAP;
+    }
+}
+
 static void DrawChoices_Options_Four(const u8 *const *const strings, int selection, int y, bool8 active)
 {
-    static const u8 choiceOrders[][3] =
-    {
-        {0, 1, 2},
-        {0, 1, 2},
-        {1, 2, 3},
-        {1, 2, 3},
-    };
-    u8 styles[4] = {0};
-    int xMid;
-    const u8 *order = choiceOrders[selection];
-
-    styles[selection] = 1;
-    xMid = GetMiddleX(strings[order[0]], strings[order[1]], strings[order[2]]);
-
-    DrawOptionMenuChoice(strings[order[0]], 104, y, styles[order[0]], active);
-    DrawOptionMenuChoice(strings[order[1]], xMid, y, styles[order[1]], active);
-    DrawOptionMenuChoice(strings[order[2]], GetStringRightAlignXOffset(1, strings[order[2]], 198), y, styles[order[2]], active);
+    DrawChoiceRowFrom(strings, 4, selection, y, active, 3);
 }
 
 static void DrawChoices_Options_Six(const u8 *const *const strings, int selection, int y, bool8 active)
 {
-    static const u8 choiceOrders[][2] =
-    {
-        {0, 1},
-        {1, 2},
-        {2, 3},
-        {3, 4},
-        {4, 5},
-        {5, 0},
-    };
-    u8 styles[6] = {0};
-    const u8 *order = choiceOrders[selection];
-    styles[selection] = 1;
-
-    DrawOptionMenuChoice(strings[order[0]], 104, y, styles[order[0]], active);
-    DrawOptionMenuChoice(strings[order[1]], GetStringRightAlignXOffset(1, strings[order[1]], 198), y, styles[order[1]], active);
+    DrawChoiceRowFrom(strings, 6, selection, y, active, 2);
 }
 
 static void ReDrawAll(void)
@@ -1616,13 +1626,9 @@ static void DrawChoices_Sound(int selection, int y)
 static void DrawChoices_ButtonMode(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_MAIN_BUTTONMODE);
-    u8 styles[3] = {0};
-    int xMid = GetMiddleX(gText_ButtonTypeNormal, gText_ButtonTypeLR, gText_ButtonTypeLEqualsA);
-    styles[selection] = 1;
+    static const u8 *const buttonStrings[] = {gText_ButtonTypeNormal, gText_ButtonTypeLR, gText_ButtonTypeLEqualsA};
 
-    DrawOptionMenuChoice(gText_ButtonTypeNormal, 104, y, styles[0], active);
-    DrawOptionMenuChoice(gText_ButtonTypeLR, xMid, y, styles[1], active);
-    DrawOptionMenuChoice(gText_ButtonTypeLEqualsA, GetStringRightAlignXOffset(1, gText_ButtonTypeLEqualsA, 198), y, styles[2], active);
+    DrawChoiceRowFrom(buttonStrings, 3, selection, y, active, 3);
 }
 
 static void DrawChoices_FrameType(int selection, int y)
@@ -1929,8 +1935,7 @@ static const u8 sText_Imperial[]      = _("IMPERIAL");
 static void DrawChoices_Unit_Type(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_MAIN_UNIT_TYPE);
-    u8 styles[2] = {0};
-    styles[selection] = 1;
+    static const u8 *const unitStrings[] = {sText_Metric, sText_Imperial};
 
     if (selection == 0)
     {
@@ -1940,8 +1945,7 @@ static void DrawChoices_Unit_Type(int selection, int y)
     {
         gSaveBlock2Ptr->optionsUnitSystem = 1; //IMPERIAL
     }
-    DrawOptionMenuChoice(sText_Metric, 104, y, styles[0], active);
-    DrawOptionMenuChoice(sText_Imperial, GetStringRightAlignXOffset(1, sText_Imperial, 198), y, styles[1], active);
+    DrawChoiceRowFrom(unitStrings, 2, selection, y, active, 2);
 }
 
 static void DrawChoices_Music(int selection, int y)
