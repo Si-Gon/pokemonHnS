@@ -10,12 +10,28 @@ No se distribuye ningun ROM: aca esta el parche de traduccion para que lo apliqu
 
 **https://github.com/Si-Gon/pokemonHnS/releases/tag/es-1.2.1-v1**
 
-## Como se aplica (3 pasos)
+## Todo lo que necesitas, desde aca
 
-1. Tené tu **Pokemon Emerald (USA/Europe)** propio.
-2. Aplicá el parche oficial de **Heart & Soul v1.2.1** (su archivo `.ups`).
-3. Aplicá **este parche encima**, con [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/legacy/)
-   o cualquier herramienta UPS.
+**Paso 1.** Conseguí tu propio **Pokemon Emerald (USA/Europe)**. Es el unico archivo que no se puede
+enlazar: aca no se distribuyen ROMs, ni el original ni el traducido.
+
+**Paso 2.** Descargá el juego base **Heart & Soul v1.2.1 en ingles** (archivo oficial de sus autores,
+31 MB, desde SU repositorio):
+
+- Pagina del release oficial: https://github.com/PokemonHnS-Development/pokemonHnS/releases/tag/Release-v1.2.1
+- Descarga directa del parche: https://github.com/PokemonHnS-Development/pokemonHnS/releases/download/Release-v1.2.1/pokemonHnS_v1.2.1.ups
+
+**Paso 3.** Con [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/legacy/) (funciona en el
+navegador, no hay que instalar nada):
+
+1. Parcheá tu Emerald con el archivo del paso 2. Ya tenes Heart & Soul en ingles.
+2. Parcheá **ese resultado** con este parche de traduccion. Listo: Heart & Soul en espanol.
+
+El parche de traduccion **verifica tu ROM base**: si no es exactamente el Heart & Soul v1.2.1, se
+niega a aplicarse en vez de darte un ROM roto.
+
+> El juego base y su parche son de sus autores (PokemonHnS-Development). Aca se enlazan a su
+> repositorio oficial: no se rehospeda su archivo, y no se distribuye ningun ROM.
 
 El parche verifica tu ROM base: si no es exactamente el Heart & Soul v1.2.1, se niega a aplicarse
 en vez de darte un ROM roto.
@@ -48,7 +64,10 @@ built on Pokemon Emerald). Made on top of the project source.
 
 **Patch download:** https://github.com/Si-Gon/pokemonHnS/releases/tag/es-1.2.1-v1
 
-No ROM is distributed. Apply the patch on top of Heart & Soul v1.2.1 (which you get by patching
-your own Pokemon Emerald). 99.6% of the strings are translated, including 100% of the Johto/Kanto
+**You also need:** Heart & Soul v1.2.1 in English (the authors' official file, linked here so you
+don't have to search for it) - https://github.com/PokemonHnS-Development/pokemonHnS/releases/tag/Release-v1.2.1
+- and your own Pokemon Emerald (USA/Europe). Patch Emerald with the official file first, then patch
+the result with the translation. No ROM is hosted or distributed here; the base game is theirs and
+stays linked to their repository. 99.6% of the strings are translated, including 100% of the Johto/Kanto
 dialogue. The game itself belongs to its authors - this is only a translation, offered back to the
 project in PR #111.
