@@ -937,7 +937,7 @@ static const u8 *const sOptionMenuItemDescriptionsNuzlocke[MENUITEM_NUZLOCKE_COU
     [MENUITEM_NUZLOCKE_NEXT]                = {sText_Description_Nuzlocke_Next,                 sText_Empty,                                        sText_Empty,                        sText_Empty},
 };
 
-static const u8 sText_Description_Difficulty_Party_Limit[]              = _("Limita la cantidad de {PKMN} en el equipo.\n{COLOR 7}{COLOR 8}\"1\" falla en DOBLE BATALLA.");
+static const u8 sText_Description_Difficulty_Party_Limit[]              = _("Limita la cantidad de {PKMN} en el equipo.\n{COLOR 7}{COLOR 8}“1” falla en DOBLE BATALLA.");
 static const u8 sText_Description_Difficulty_LevelCap_Base[]            = _("Sin límite de nivel. Puedes subirlo.\n");
 static const u8 sText_Description_Difficulty_LevelCap_Normal[]          = _("El nivel máximo depende del\nmayor POKéMON del próximo gimnasio.");
 static const u8 sText_Description_Difficulty_LevelCap_Hard[]            = _("El nivel máximo se basa en el\nnivel {COLOR 7}{COLOR 8}más bajo del próximo gimnasio.");
