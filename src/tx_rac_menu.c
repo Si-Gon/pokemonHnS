@@ -473,22 +473,22 @@ struct // MENU_CHALLENGES
 };
 
 
-static const u8 sText_Gamemode[]            = _("GAMEMODE");
-//static const u8 sText_AlternateSpawns[]     = _("ENCOUNTERS");
-static const u8 sText_InfiniteTMs[]         = _("REUSABLE TMS");
-static const u8 sText_Poison[]              = _("SURVIVE POISON");
-static const u8 sText_Synchronize[]         = _("SYNCHRONIZE");
-static const u8 sText_Mints[]               = _("NATURE MINTS");
-static const u8 sText_NewCitrus[]           = _("SITRUS BERRY");
-static const u8 sText_ModernTypes[]         = _("{COLOR 3}{SHADOW 3}POKéMON TYPES");
-static const u8 sText_FairyTypes[]          = _("ADD FAIRY TYPE");
-static const u8 sText_NewStats[]            = _("{COLOR 3}{SHADOW 3}POKéMON STATS");
-static const u8 sText_Sturdy[]              = _("STURDY");
-static const u8 sText_Modern_Moves[]        = _("{PKMN} MOVEPOOL");
-static const u8 sText_Legendary_Abilities[] = _("LEGEN. ABILITIES");
+static const u8 sText_Gamemode[]            = _("MODO DE JUEGO");
+//static const u8 sText_AlternateSpawns[]     = _("ENCUENTROS");
+static const u8 sText_InfiniteTMs[]         = _("MT REUTILIZABLES");
+static const u8 sText_Poison[]              = _("SOBREVIVIR VENENO");
+static const u8 sText_Synchronize[]         = _("SINCRONÍA");
+static const u8 sText_Mints[]               = _("MINTAS NATURALEZA");
+static const u8 sText_NewCitrus[]           = _("BAYA SITRÓN");
+static const u8 sText_ModernTypes[]         = _("{COLOR 3}{SHADOW 3}TIPOS POKéMON");
+static const u8 sText_FairyTypes[]          = _("AÑADIR TIPO HADA");
+static const u8 sText_NewStats[]            = _("{COLOR 3}{SHADOW 3}ESTADÍS. POKéMON");
+static const u8 sText_Sturdy[]              = _("FIRMEZA");
+static const u8 sText_Modern_Moves[]        = _("MOVIMIENTOS DE {PKMN}");
+static const u8 sText_Legendary_Abilities[] = _("HAB. LEGENDARIAS");
 static const u8 sText_New_Legendaries[]     = _("{COLOR 3}{SHADOW 3}EXTRA LEGEND.");
-static const u8 sText_New_Effectiveness[]   = _("TYPE CHART");
-static const u8 sText_Next[]                = _("NEXT");
+static const u8 sText_New_Effectiveness[]   = _("TABLA DE TIPOS");
+static const u8 sText_Next[]                = _("SIGUIENTE");
 // Menu left side option names text
 static const u8 *const sOptionMenuItemsNamesMode[MENUITEM_MODE_COUNT] =
 {
@@ -510,13 +510,13 @@ static const u8 *const sOptionMenuItemsNamesMode[MENUITEM_MODE_COUNT] =
     [MENUITEM_MODE_NEXT]                      = sText_Next,
 };
 
-static const u8 sText_RTC_Type[]            = _("CLOCK TYPE");
-static const u8 sText_ShinyChance[]         = _("SHINY CHANCE");
-static const u8 sText_ItemDrop[]            = _("ITEM DROP");
-static const u8 sText_EasyFeebas[]          = _("{COLOR 3}{SHADOW 3}EASIER FEEBAS");
-static const u8 sText_Unlimited_WT[]        = _("{COLOR 3}{SHADOW 3}UNLIMITED WT");
-static const u8 sText_FrontierBans[]        = _("FRONTIER BANS");
-static const u8 sText_Shiny_Colors[]        = _("SHINY COLORS");
+static const u8 sText_RTC_Type[]            = _("TIPO DE RELOJ");
+static const u8 sText_ShinyChance[]         = _("PROB. DE SHINY");
+static const u8 sText_ItemDrop[]            = _("OBJETO AL CAER");
+static const u8 sText_EasyFeebas[]          = _("{COLOR 3}{SHADOW 3}FEEBAS FÁCIL");
+static const u8 sText_Unlimited_WT[]        = _("{COLOR 3}{SHADOW 3}WT ILIMITADO");
+static const u8 sText_FrontierBans[]        = _("BANEOS FRONTIER");
+static const u8 sText_Shiny_Colors[]        = _("COLORES SHINY");
 
 // Menu left side option names text
 static const u8 *const sOptionMenuItemsNamesFeatures[MENUITEM_FEATURES_COUNT] =
@@ -533,20 +533,20 @@ static const u8 *const sOptionMenuItemsNamesFeatures[MENUITEM_FEATURES_COUNT] =
 
 static const u8 sText_Dummy[] =                     _("DUMMY");
 static const u8 sText_Randomizer[] =                _("RANDOMIZER");
-static const u8 sText_Starter[] =                   _("STARTER POKéMON");
-static const u8 sText_WildPkmn[] =                  _("WILD POKéMON");
-static const u8 sText_Trainer[] =                   _("TRAINER");
-static const u8 sText_Static[] =                    _("STATIC POKéMON");
-static const u8 sText_SimiliarEvolutionLevel[] =    _("BALANCING");
-static const u8 sText_InlcudeLegendaries[]=         _("LEGENDARIES");
-static const u8 sText_Type[] =                      _("TYPE");
-static const u8 sText_Moves[] =                     _("MOVES");
-static const u8 sText_Abilities[] =                 _("ABILITIES");
-static const u8 sText_Evolutions[] =                _("EVOLUTIONS");
-static const u8 sText_EvolutionMethods[] =          _("EVO LINES");
-static const u8 sText_TypeEff[] =                   _("EFFECTIVENESS");
-static const u8 sText_Items[] =                     _("ITEMS");
-static const u8 sText_Chaos[] =                     _("CHAOS MODE");
+static const u8 sText_Starter[] =                   _("POKéMON INICIAL");
+static const u8 sText_WildPkmn[] =                  _("POKéMON SALVAJES");
+static const u8 sText_Trainer[] =                   _("ENTRENADOR");
+static const u8 sText_Static[] =                    _("POKéMON ESTÁTICOS");
+static const u8 sText_SimiliarEvolutionLevel[] =    _("EQUILIBRIO");
+static const u8 sText_InlcudeLegendaries[]=         _("LEGENDARIOS");
+static const u8 sText_Type[] =                      _("TIPO");
+static const u8 sText_Moves[] =                     _("MOVIMIENTOS");
+static const u8 sText_Abilities[] =                 _("HABILIDADES");
+static const u8 sText_Evolutions[] =                _("EVOLUCIONES");
+static const u8 sText_EvolutionMethods[] =          _("LÍNEAS EVO");
+static const u8 sText_TypeEff[] =                   _("EFECTIVIDAD");
+static const u8 sText_Items[] =                     _("OBJETOS");
+static const u8 sText_Chaos[] =                     _("MODO CAOS");
 static const u8 *const sOptionMenuItemsNamesRandom[MENUITEM_RANDOM_COUNT] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = sText_Randomizer,
@@ -569,11 +569,11 @@ static const u8 *const sOptionMenuItemsNamesRandom[MENUITEM_RANDOM_COUNT] =
 
 // MENU_NUZLOCKE
 static const u8 sText_Nuzlocke[]        = _("NUZLOCKE");
-static const u8 sText_SpeciesClause[]   = _("DUPES CLAUSE");
-static const u8 sText_ShinyClause[]     = _("SHINY CLAUSE");
-static const u8 sText_Nicknaming[]      = _("NICKNAMES");
-static const u8 sText_Deletion[]        = _("FAINTING");
-static const u8 sText_RareCandy[]       = _("INF. RARE CANDY");
+static const u8 sText_SpeciesClause[]   = _("CLÁUSULA DUPLICADOS");
+static const u8 sText_ShinyClause[]     = _("CLÁUSULA SHINY");
+static const u8 sText_Nicknaming[]      = _("APODOS");
+static const u8 sText_Deletion[]        = _("DESMAYOS");
+static const u8 sText_RareCandy[]       = _("CARAMELO RARO INF.");
 
 static const u8 *const sOptionMenuItemsNamesNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 {
@@ -587,19 +587,19 @@ static const u8 *const sOptionMenuItemsNamesNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 };
 
 //MENU_DIFFICULTY
-static const u8 sText_PartyLimit[]          = _("PARTY LIMIT");
-static const u8 sText_LessEscapes[]         = _("LESS ESCAPES");
-static const u8 sText_LevelCap[]            = _("LEVEL CAP");
-static const u8 sText_ExpMultiplier[]       = _("EXP. MULTIPLIER");
-static const u8 sText_Items_Player[]        = _("PLAYER ITEMS");
-static const u8 sText_Items_Trainer[]       = _("TRAINER ITEMS");
-static const u8 sText_NoEVs[]               = _("PLAYER EVs");
-static const u8 sText_ScalingIVs[]          = _("TRAINER IVs");
-static const u8 sText_ScalingEVs[]          = _("TRAINER EVs");
-//static const u8 sText_LimitDifficulty[]     = _("LOCK DIFFICULTY");
-//static const u8 sText_HardExp[]             = _("HARD MODE EXP.");
-static const u8 sText_MaxPartyIvs[]         = _("PLAYER IVs");
-static const u8 sText_DigRope[]             = _("ESC. ROPE / DIG");
+static const u8 sText_PartyLimit[]          = _("LÍMITE DE EQUIPO");
+static const u8 sText_LessEscapes[]         = _("MENOS HUIDAS");
+static const u8 sText_LevelCap[]            = _("LÍMITE DE NIVEL");
+static const u8 sText_ExpMultiplier[]       = _("MULT. DE EXP.");
+static const u8 sText_Items_Player[]        = _("OBJ. DEL JUGADOR");
+static const u8 sText_Items_Trainer[]       = _("OBJ. DEL ENTRENADOR");
+static const u8 sText_NoEVs[]               = _("EVs DEL JUGADOR");
+static const u8 sText_ScalingIVs[]          = _("IVs DEL ENTRENADOR");
+static const u8 sText_ScalingEVs[]          = _("EVs DEL ENTRENADOR");
+//static const u8 sText_LimitDifficulty[]     = _("DIFICULTAD FIJA");
+//static const u8 sText_HardExp[]             = _("EXP. MODO DIFÍCIL");
+static const u8 sText_MaxPartyIvs[]         = _("IVs del JUGADOR");
+static const u8 sText_DigRope[]             = _("C. HUIDA / AGUANTE");
 static const u8 *const sOptionMenuItemsNamesDifficulty[MENUITEM_DIFFICULTY_COUNT] =
 {
     [MENUITEM_DIFFICULTY_PARTY_LIMIT]           = sText_PartyLimit,
@@ -619,15 +619,15 @@ static const u8 *const sOptionMenuItemsNamesDifficulty[MENUITEM_DIFFICULTY_COUNT
 };
 
 // MENU_CHALLENGES
-static const u8 sText_Pokecenter[]          = _("POKéCENTER");
-static const u8 sText_PCHeal[]              = _("PC HEALS {PKMN}");
-static const u8 sText_Expensive[]           = _("ULTRA EXPENSIVE!");
-static const u8 sText_EvoLimit[]            = _("EVO LIMIT");
-static const u8 sText_OneTypeChallenge[]    = _("ONE TYPE ONLY");
-static const u8 sText_BaseStatEqualizer[]   = _("BST EQUALIZER");
-static const u8 sText_Mirror[]              = _("MIRROR MODE");
-static const u8 sText_MirrorThief[]         = _("MIRROR THIEF");
-static const u8 sText_Save[]                = _("SAVE");
+static const u8 sText_Pokecenter[]          = _("CENTRO POKéMON");
+static const u8 sText_PCHeal[]              = _("PC CURA A {PKMN}");
+static const u8 sText_Expensive[]           = _("¡ULTRA CARO!");
+static const u8 sText_EvoLimit[]            = _("LÍMITE EVO");
+static const u8 sText_OneTypeChallenge[]    = _("SÓLO UN TIPO");
+static const u8 sText_BaseStatEqualizer[]   = _("IGUALADOR DE BST");
+static const u8 sText_Mirror[]              = _("MODO ESPEJO");
+static const u8 sText_MirrorThief[]         = _("LADRÓN ESPEJO");
+static const u8 sText_Save[]                = _("GUARDAR");
 static const u8 *const sOptionMenuItemsNamesChallenges[MENUITEM_CHALLENGES_COUNT] =
 {
     [MENUITEM_DIFFICULTY_POKECENTER]            = sText_Pokecenter,
@@ -772,18 +772,18 @@ static bool8 CheckConditions(int selection)
 
 // Descriptions
 static const u8 sText_Empty[]               = _("");
-static const u8 sText_Description_Save[]    = _("Save choices and continue...");
+static const u8 sText_Description_Save[]    = _("Guardar opciones y continuar...");
 
 static const u8 sText_Description_Mode_Gamemode_Classic[]         = _("Recommended settings.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
-static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
-static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("Choose your own rules.\n{COLOR 7}{COLOR 8}NOTE: All selections are PERMANENT.");
+static const u8 sText_Description_Mode_Gamemode_Modern[]          = _("Elige tus reglas.\n{COLOR 7}{COLOR 8}OJO: Todo queda FIJO.");
+static const u8 sText_Description_Mode_Gamemode_Custom[]          = _("Elige tus reglas.\n{COLOR 7}{COLOR 8}OJO: Todo queda FIJO.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Vanilla[]        = _("Use VANILLA wild encounters.\nUnchanged from the original.");
 //static const u8 sText_Description_Mode_AlternateSpawns_Postgame[]       = _("VANILLA, but after becoming champion,\nall 423 {PKMN} will be available.");
-//static const u8 sText_Description_Mode_AlternateSpawns_Modern[]         = _("Use MODERN wild encounters.\nAll 423 {PKMN} will be available.");
+//static const u8 sText_Description_Mode_AlternateSpawns_Modern[]         = _("Encuentros MODERNOS.\nLos 423 {PKMN} estarán.");
 static const u8 sText_Description_Mode_InfiniteTMs_On[]           = _("TMs are reusable.\nModern Emerald recommended.");
 static const u8 sText_Description_Mode_InfiniteTMs_Off[]          = _("TMs are not reusable.\nLike in the original.");
-static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("Your {PKMN} will survive the POISON\nstatus with 1HP.");
-static const u8 sText_Description_Mode_SurvivePoison_Off[]        = _("Your {PKMN} will faint if they are\nPOISONED.");
+static const u8 sText_Description_Mode_SurvivePoison_On[]         = _("Tu {PKMN} sobrevivirá al VENENO\ncon 1 PS.");
+static const u8 sText_Description_Mode_SurvivePoison_Off[]        = _("Tu {PKMN} se debilitará si está\nENVENENADO.");
 static const u8 sText_Description_Mode_Synchronize_Old[]          = _("SYNCHRONIZE works as in GEN III.\n50% chance to copy nature.");
 static const u8 sText_Description_Mode_Synchronize_New[]          = _("SYNCHRONIZE works as in GEN VIII+.\n100% chance to copy nature.");
 static const u8 sText_Description_Mode_Mints_Off[]                = _("Mints are not availabe ingame until\nfinishing the game.");
@@ -794,7 +794,7 @@ static const u8 sText_Description_Mode_Modern_Types_Off[]         = _("Original 
 static const u8 sText_Description_Mode_Modern_Types_On[]          = _("{PKMN} have modified typings\nto make them more viable.");
 static const u8 sText_Description_Mode_Fairy_Types_Off[]          = _("FAIRY TYPE isn't added to {PKMN} \nthat got it in GEN VI.");
 static const u8 sText_Description_Mode_Fairy_Types_On[]           = _("FAIRY TYPE is added / changed to\ncertain {PKMN}, as in GEN VI.");
-static const u8 sText_Description_Mode_New_Stats_Off[]            = _("Original GEN III {PKMN} stats.");
+static const u8 sText_Description_Mode_New_Stats_Off[]            = _("Stats originales de GEN III de {PKMN}.");
 static const u8 sText_Description_Mode_New_Stats_On[]             = _("Modified stats to make certain\n{PKMN} more viable.");
 static const u8 sText_Description_Mode_Sturdy_Off[]               = _("STURDY works as in GEN III. Only\nnegates OHKO moves (GUILLOTINE, etc.)");
 static const u8 sText_Description_Mode_Sturdy_On[]                = _("STURDY works as in GEN V+.\n{PKMN} survive lethal hits with 1HP.");
@@ -802,11 +802,11 @@ static const u8 sText_Description_Mode_Modern_Moves_Off[]         = _("No new MO
 static const u8 sText_Description_Mode_Modern_Moves_On[]          = _("13 new MOVES, and improved MOVEPOOL\nfor all {PKMN} + new EGG and TUTOR MOVES.");
 static const u8 sText_Description_Mode_Leg_Abilities_Off[]        = _("PRESSURE stays as the main\nability of some legendaries.");
 static const u8 sText_Description_Mode_Leg_Abilities_On[]         = _("Legendaries have PRESSURE changed\nfor a better ability.");
-static const u8 sText_Description_Mode_New_Legendaries_Off[]      = _("No extra legendaries are added.");
+static const u8 sText_Description_Mode_New_Legendaries_Off[]      = _("No se añaden legendarios extra.");
 static const u8 sText_Description_Mode_New_Legendaries_On[]       = _("Extra legendaries from GEN I and II\nare added via ingame events.");
 static const u8 sText_Description_Mode_New_Effectiveness_Original[]  = _("Original type effectiveness\nfor all types.");
 static const u8 sText_Description_Mode_New_Effectiveness_Modern[]    = _("New and balanced type effectiveness\nfor certain types.");
-static const u8 sText_Description_Mode_Next[]                     = _("Continue to Features options.");
+static const u8 sText_Description_Mode_Next[]                     = _("Continuar a opciones de funciones.");
 
 static const u8 *const sOptionMenuItemDescriptionsMode[MENUITEM_MODE_COUNT][5] =
 {
@@ -828,25 +828,25 @@ static const u8 *const sOptionMenuItemDescriptionsMode[MENUITEM_MODE_COUNT][5] =
     [MENUITEM_MODE_NEXT]                  = {sText_Description_Mode_Next,                   sText_Empty,                                  sText_Empty,                                        sText_Empty,                                        sText_Empty},
 };
 
-static const u8 sText_Description_Features_RTC_Type_RTC[]             = _("Use vanilla Real Time Clock.");
+static const u8 sText_Description_Features_RTC_Type_RTC[]             = _("Usar Reloj en Tiempo Real original.");
 static const u8 sText_Description_Features_RTC_Type_FakeRTC[]         = _("Use a fake Real Time Clock.\n1h in real life = 1 day in-game.");
-static const u8 sText_Description_Features_ItemDrop_On[]              = _("Wild {PKMN} will drop their hold item\nafter defeating them.");
+static const u8 sText_Description_Features_ItemDrop_On[]              = _("{PKMN} soltará su objeto\nal ser derrotado.");
 static const u8 sText_Description_Features_ItemDrop_Off[]             = _("Wild {PKMN} items will be only obtainable\nvia capture or THIEF.");
 static const u8 sText_Description_Features_ShinyChance_8192[]         = _("Very low chance of SHINY encounter.\nDefault chance from Generation III.");
 static const u8 sText_Description_Features_ShinyChance_4096[]         = _("Low chance of SHINY encounter.\nDefault chance from Generation VI+.");
-static const u8 sText_Description_Features_ShinyChance_2048[]         = _("Decent chance of SHINY encounter.");
-static const u8 sText_Description_Features_ShinyChance_1024[]         = _("High chance of SHINY encounter.");
-static const u8 sText_Description_Features_ShinyChance_512[]          = _("Very high chance of SHINY encounter.");
+static const u8 sText_Description_Features_ShinyChance_2048[]         = _("Probabilidad decente de SHINY.");
+static const u8 sText_Description_Features_ShinyChance_1024[]         = _("Probabilidad alta de SHINY.");
+static const u8 sText_Description_Features_ShinyChance_512[]          = _("Probabilidad muy alta de SHINY.");
 static const u8 sText_Description_Features_EasyFeebas_On[]            = _("FEEBAS is easier to catch and spawns\neverywhere in ROUTE 119.");
 static const u8 sText_Description_Features_EasyFeebas_Off[]           = _("FEEBAS is encountered in random\nspots in ROUTE 119.");
 static const u8 sText_Description_Features_Unlimited_WT_On[]          = _("Enables a daily limit of 3\nWonderTrades. Recommended.");
-static const u8 sText_Description_Features_Unlimited_WT_Off[]         = _("WonderTrades have no daily limit.");
+static const u8 sText_Description_Features_Unlimited_WT_Off[]         = _("Intercambios Prodigiosos sin límite.");
 static const u8 sText_Description_Features_FrontierBans_Unban[]       = _("All legendaries are allowed to\nparticipate in the BATTLE FRONTIER.");
 static const u8 sText_Description_Features_FrontierBans_Ban[]         = _("Powerful legendary {PKMN} are banned\nin the BATTLE FRONTIER. Default.");
 static const u8 sText_Description_Features_Shiny_Colors_Original[]    = _("Original shiny color palette for all\nPOKéMON. Default.");
 static const u8 sText_Description_Features_Shiny_Colors_Modern[]      = _("Some shiny POKéMON have brand new\ncolor palettes.");
 
-static const u8 sText_Description_Features_Next[]                     = _("Continue to Randomizer options.");
+static const u8 sText_Description_Features_Next[]                     = _("Ir a opciones de Randomizer.");
 
 static const u8 *const sOptionMenuItemDescriptionsFeatures[MENUITEM_FEATURES_COUNT][5] =
 {
@@ -860,37 +860,37 @@ static const u8 *const sOptionMenuItemDescriptionsFeatures[MENUITEM_FEATURES_COU
     [MENUITEM_FEATURES_NEXT]                  = {sText_Description_Features_Next,                   sText_Empty,                                      sText_Empty,                                        sText_Empty,                                        sText_Empty},
 };
 
-static const u8 sText_Description_Randomizer_Off[]                  = _("Game will not be randomized.");
+static const u8 sText_Description_Randomizer_Off[]                  = _("El juego no será aleatorizado.");
 static const u8 sText_Description_Randomizer_On[]                   = _("Play the game randomized.\nSettings below!");
-static const u8 sText_Description_Random_Starter_Off[]              = _("Standard starter POKéMON.");
-static const u8 sText_Description_Random_Starter_On[]               = _("Randomize starter POKéMON.");
+static const u8 sText_Description_Random_Starter_Off[]              = _("POKéMON iniciales estándar.");
+static const u8 sText_Description_Random_Starter_On[]               = _("Aleatorizar POKéMON iniciales.");
 static const u8 sText_Description_Random_WildPokemon_Off[]          = _("Same wild encounter as in the\nbase game.");
-static const u8 sText_Description_Random_WildPokemon_On[]           = _("Randomize wild POKéMON.");
+static const u8 sText_Description_Random_WildPokemon_On[]           = _("Aleatorizar POKéMON silvestres.");
 static const u8 sText_Description_Random_Trainer_Off[]              = _("Trainer will have their expected\nparty.");
-static const u8 sText_Description_Random_Trainer_On[]               = _("Randomize enemy trainer parties.");
+static const u8 sText_Description_Random_Trainer_On[]               = _("Aleatorizar equipos enemigos.");
 static const u8 sText_Description_Random_Static_Off[]               = _("Static encounters will be the same\nas in the base game.");
 static const u8 sText_Description_Random_Static_On[]                = _("Named {PKMN}, casino {PKMN}, roamers, and\nsome other special {PKMN} won't change.");
-static const u8 sText_Description_Random_BalanceTiers_Off[]         = _("Distribution of POKéMON {COLOR 7}{COLOR 8}not balanced{COLOR 1}{COLOR 2}\naround their strength!");
+static const u8 sText_Description_Random_BalanceTiers_Off[]         = _("POKéMON {COLOR 7}{COLOR 8}no balanceados{COLOR 1}{COLOR 2}\nsegún su fuerza!");
 static const u8 sText_Description_Random_BalanceTiers_On[]          = _("{PKMN} replaced with similar tiered ones.\nCurrently based on evo stages.");
 static const u8 sText_Description_Random_IncludeLegendaries_Off[]   = _("Legendary POKéMON will not be\nincluded and randomized.");
 static const u8 sText_Description_Random_IncludeLegendaries_On[]    = _("Include legendary POKéMON in\nrandomization!");
 static const u8 sText_Description_Random_Types_Off[]                = _("POKéMON types stay the same as in\nthe base game.");
-static const u8 sText_Description_Random_Types_On[]                 = _("Randomize all POKéMON types.");
+static const u8 sText_Description_Random_Types_On[]                 = _("Aleatoriza todos los tipos POKéMON.");
 static const u8 sText_Description_Random_Moves_Off[]                = _("POKéMON moves stay the same as in\nthe base game.");
-static const u8 sText_Description_Random_Moves_On[]                 = _("Randomize all POKéMON moves.");
+static const u8 sText_Description_Random_Moves_On[]                 = _("Aleatorizar todos los movimientos.");
 static const u8 sText_Description_Random_Abilities_Off[]            = _("POKéMON abilities stay the same as in\nthe base game.");
-static const u8 sText_Description_Random_Abilities_On[]             = _("Randomize all POKéMON abilities.");
+static const u8 sText_Description_Random_Abilities_On[]             = _("Aleatorizar todas las habilidades.");
 static const u8 sText_Description_Random_Evos_Off[]                 = _("POKéMON evolutions stay the same as\nin the base game.");
-static const u8 sText_Description_Random_Evos_On[]                  = _("Randomize all POKéMON evolutions.");
+static const u8 sText_Description_Random_Evos_On[]                  = _("Aleatorizar todas las evoluciones.");
 static const u8 sText_Description_Random_Evo_Methods_Off[]          = _("The POKéMON that can potentially\nevolve are unchanged.");
 static const u8 sText_Description_Random_Evo_Methods_On[]           = _("Randomize evolution lines. Allows\nnew evolution lines to occure!");
 static const u8 sText_Description_Random_Effectiveness_Off[]        = _("Type effectiveness chart will remain\nthe same as in the base game.");
 static const u8 sText_Description_Random_Effectiveness_On[]         = _("Randomize type effectiveness.\n{COLOR 7}{COLOR 8}WARNING: CAN BE BUGGY!");
 static const u8 sText_Description_Random_Items_Off[]                = _("All found or received items are the\nsame as in the base game.");
 static const u8 sText_Description_Random_Items_On[]                 = _("Randomize found, hidden and revieved\nitems. KEY items are excluded!");
-static const u8 sText_Description_Random_ChaosMode_Off[]            = _("Chaos mode disabled.");
+static const u8 sText_Description_Random_ChaosMode_Off[]            = _("Modo Caos desactivado.");
 static const u8 sText_Description_Random_ChaosMode_On[]             = _("Every above chosen option will be\nvery chaotic. {COLOR 7}{COLOR 8}NOT recommended!");
-static const u8 sText_Description_Random_Next[]                     = _("Continue to Nuzlocke options.");
+static const u8 sText_Description_Random_Next[]                     = _("Ir a opciones de Nuzlocke.");
 static const u8 *const sOptionMenuItemDescriptionsRandomizer[MENUITEM_RANDOM_COUNT][2] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = {sText_Description_Randomizer_Off,               sText_Description_Randomizer_On},
@@ -911,7 +911,7 @@ static const u8 *const sOptionMenuItemDescriptionsRandomizer[MENUITEM_RANDOM_COU
     [MENUITEM_RANDOM_NEXT]                      = {sText_Description_Random_Next,                  sText_Empty},
 };
 
-static const u8 sText_Description_Nuzlocke_Base[]               = _("Nuzlocke mode is disabled.");
+static const u8 sText_Description_Nuzlocke_Base[]               = _("Modo Nuzlocke desactivado.");
 static const u8 sText_Description_Nuzlocke_Easy[]               = _("Fainted {PKMN} can't be used anymore!\nNo more rules are enforced.");
 static const u8 sText_Description_Nuzlocke_Normal[]             = _("One catch per route! Fainted POKéMON\ncan't be used anymore.");
 static const u8 sText_Description_Nuzlocke_Hard[]               = _("Same rules as NORMAL but also\n{COLOR 7}{COLOR 8}deletes SAVE on battle loss!");
@@ -919,13 +919,13 @@ static const u8 sText_Description_Nuzlocke_SpeciesClause_Off[]  = _("The player 
 static const u8 sText_Description_Nuzlocke_SpeciesClause_On[]   = _("Only not prior caught POKéMON count\nas first encounter. {COLOR 7}{COLOR 8}RECOMMENDED!");
 static const u8 sText_Description_Nuzlocke_ShinyClause_Off[]    = _("The player can only catch a shiny\nPOKéMON if it's the first encounter.");
 static const u8 sText_Description_Nuzlocke_ShinyClause_On[]     = _("The player can always catch shiny\nPOKéMON. {COLOR 7}{COLOR 8}RECOMMENDED!");
-static const u8 sText_Description_Nuzlocke_Nicknaming_Off[]     = _("Nicknames are optional.");
+static const u8 sText_Description_Nuzlocke_Nicknaming_Off[]     = _("Los apodos son opcionales.");
 static const u8 sText_Description_Nuzlocke_Nicknaming_On[]      = _("Forces the player to nickname every\nPOKéMON. {COLOR 7}{COLOR 8}RECOMMENDED!");
 static const u8 sText_Description_Nuzlocke_Deletion_Cemetery[]  = _("Fainted POKéMON are sent to the PC\nafter battle and can't be retrieved.");
 static const u8 sText_Description_Nuzlocke_Deletion_Deletion[]  = _("Fainted POKéMON are {COLOR 7}{COLOR 8}released{COLOR 1}{COLOR 2} after\nbattle!");
 static const u8 sText_Description_Nuzlocke_RareCandy_On[]       = _("Infinite Rare Candy will be in the\n player's PC at game start.");
 static const u8 sText_Description_Nuzlocke_RareCandy_Off[]       = _("Player will not have access to\n Infinite Rare Candy.");
-static const u8 sText_Description_Nuzlocke_Next[]               = _("Continue to difficulty options.");
+static const u8 sText_Description_Nuzlocke_Next[]               = _("Continuar a opciones de dificultad.");
 static const u8 *const sOptionMenuItemDescriptionsNuzlocke[MENUITEM_NUZLOCKE_COUNT][4] =
 {
     [MENUITEM_NUZLOCKE_NUZLOCKE]            = {sText_Description_Nuzlocke_Base,                 sText_Description_Nuzlocke_Easy,                    sText_Description_Nuzlocke_Normal,  sText_Description_Nuzlocke_Hard},
@@ -938,27 +938,27 @@ static const u8 *const sOptionMenuItemDescriptionsNuzlocke[MENUITEM_NUZLOCKE_COU
 };
 
 static const u8 sText_Description_Difficulty_Party_Limit[]              = _("Limits the amount of {PKMN} in the party.\n{COLOR 7}{COLOR 8}“1” has visual bugs in DOUBLE BATTLES.");
-static const u8 sText_Description_Difficulty_LevelCap_Base[]            = _("No level cap. Overleveling possible.\n");
+static const u8 sText_Description_Difficulty_LevelCap_Base[]            = _("Sin límite de nivel. Puedes subirlo.\n");
 static const u8 sText_Description_Difficulty_LevelCap_Normal[]          = _("Maximum level is based on the\nnext gym's highest POKéMON level.");
 static const u8 sText_Description_Difficulty_LevelCap_Hard[]            = _("Maximum level is based on the\nnext gym's {COLOR 7}{COLOR 8}lowest POKéMON level.");
 static const u8 sText_Description_Difficulty_ExpMultiplier_1_0[]        = _("POKéMON gain normal EXP. Points.\nStacks with HARD MODE EXP.");
 static const u8 sText_Description_Difficulty_ExpMultiplier_1_5[]        = _("POKéMON gain 50 percent more EXP.\nPoints! Stacks with HARD MODE EXP.");
 static const u8 sText_Description_Difficulty_ExpMultiplier_2_0[]        = _("POKéMON gain double EXP. Points!\nStacks with HARD MODE EXP.");
 static const u8 sText_Description_Difficulty_ExpMultiplier_0_0[]        = _("POKéMON gain {COLOR 7}{COLOR 8}ZERO EXP. Points!!!\nApplies to HARD MODE EXP. as well.");
-static const u8 sText_Description_Difficulty_Items_Player_Yes[]         = _("The player can use battle items.");
+static const u8 sText_Description_Difficulty_Items_Player_Yes[]         = _("El jugador puede usar objetos.");
 static const u8 sText_Description_Difficulty_Items_Player_No[]          = _("The player can {COLOR 7}{COLOR 8}NOT use battle items.\nHold items are allowed!");
-static const u8 sText_Description_Difficulty_Items_Trainer_Yes[]        = _("Enemy trainers can use battle items.");
-static const u8 sText_Description_Difficulty_Items_Trainer_No[]         = _("Enemy trainers can {COLOR 7}{COLOR 8}NOT use battle\nitems.");
-static const u8 sText_Description_Difficulty_NoEVs_Off[]                = _("The player's POKéMON gain effort\nvalues as expected.");
-static const u8 sText_Description_Difficulty_NoEVs_On[]                 = _("The player's POKéMON do {COLOR 7}{COLOR 8}NOT{COLOR 1}{COLOR 2} gain\nany effort values!");
+static const u8 sText_Description_Difficulty_Items_Trainer_Yes[]        = _("Los rivales pueden usar objetos.");
+static const u8 sText_Description_Difficulty_Items_Trainer_No[]         = _("Los rivales {COLOR 7}{COLOR 8}NO usan\nobjetos de combate.");
+static const u8 sText_Description_Difficulty_NoEVs_Off[]                = _("Tus POKéMON ganan EVs\ncomo es habitual.");
+static const u8 sText_Description_Difficulty_NoEVs_On[]                 = _("Tus POKéMON {COLOR 7}{COLOR 8}NO{COLOR 1}{COLOR 2}\nganan ningún EV!");
 static const u8 sText_Description_Difficulty_ScalingIVs_Off[]           = _("The POKéMON of enemy Trainer have\nthe expected IVs.");
 static const u8 sText_Description_Difficulty_ScalingIVs_Scaling[]       = _("The IVs of Trainer POKéMON increase\nwith gym badges!");
 static const u8 sText_Description_Difficulty_ScalingIVs_Hard[]          = _("All Trainer POKéMON have perfect\nIVs!");
-static const u8 sText_Description_Difficulty_ScalingEVs_Off[]           = _("The POKéMON of enemy Trainer have\nno EVs.");
+static const u8 sText_Description_Difficulty_ScalingEVs_Off[]           = _("Los POKéMON del rival\nno tienen EVs.");
 static const u8 sText_Description_Difficulty_ScalingEVs_Scaling[]       = _("The EVs of Trainer POKéMON increase\nwith gym badges!");
-static const u8 sText_Description_Difficulty_ScalingEVs_Hard[]          = _("All Trainer POKéMON have high EVs!");
+static const u8 sText_Description_Difficulty_ScalingEVs_Hard[]          = _("¡Los POKéMON rivales tienen EVs altos!");
 static const u8 sText_Description_Difficulty_ScalingEVs_Extreme[]       = _("All Trainer POKéMON have {COLOR 7}{COLOR 8}252 EVs!\nVery Hard!");
-static const u8 sText_Description_Difficulty_Next[]                     = _("Continue to challenge options.");
+static const u8 sText_Description_Difficulty_Next[]                     = _("Continúa a las opciones de desafío.");
 static const u8 sText_Description_Challenges_LimitDifficulty_Off[]      = _("Change the difficulty whenever and\nwherever you want.");
 static const u8 sText_Description_Challenges_LimitDifficulty_On[]       = _("Difficulty cannot be changed.\nHARD MODE locks BATTLE STYLE to SET.");
 static const u8 sText_Description_Difficulty_MaxPartyIvs_Off[]          = _("Your POKéMON have the expected IVs\n(between 0 and 31).");
@@ -991,22 +991,22 @@ static const u8 *const sOptionMenuItemDescriptionsDifficulty[MENUITEM_DIFFICULTY
 static const u8 sText_Description_Difficulty_Pokecenter_Yes[]           = _("The player can visit Pokécenters and\nother locations to heal their party.");
 static const u8 sText_Description_Difficulty_Pokecenter_No[]            = _("The player {COLOR 7}{COLOR 8}CAN'T visit Pokécenters or\nother locations to heal their party.");
 static const u8 sText_Description_Challenges_PCHeal_Yes[]               = _("POKéMON deposited to the PC\nwill be healed as usual.");
-static const u8 sText_Description_Challenges_PCHeal_No[]                = _("POKéMON deposited to the PC\nwill not be healed.");
-static const u8 sText_Description_Challenges_EvoLimit_Base[]            = _("POKéMON evolve as expected.");
+static const u8 sText_Description_Challenges_PCHeal_No[]                = _("Los POKéMON en la PC\nno serán curados.");
+static const u8 sText_Description_Challenges_EvoLimit_Base[]            = _("Los POKéMON evolucionan normal.");
 static const u8 sText_Description_Challenges_EvoLimit_First[]           = _("POKéMON can only evolve into\ntheir first evolution.");
-static const u8 sText_Description_Challenges_EvoLimit_All[]             = _("POKéMON can {COLOR 7}{COLOR 8}NOT evolve at all!");
+static const u8 sText_Description_Challenges_EvoLimit_All[]             = _("¡Los POKéMON {COLOR 7}{COLOR 8}NO pueden evolucionar!");
 static const u8 sText_Description_Challenges_OneTypeChallenge[]         = _("Allow only one POKéMON type the\nplayer can capture and use.");
 static const u8 sText_Description_Challenges_BaseStatEqualizer_Base[]   = _("All POKéMON have their original base\nstats.");
 static const u8 sText_Description_Challenges_BaseStatEqualizer_100[]    = _("POKéMON stats are calculated with\n100 of each base stat.");
 static const u8 sText_Description_Challenges_BaseStatEqualizer_255[]    = _("POKéMON stats are calculated with\n255 of each base stat.");
 static const u8 sText_Description_Challenges_BaseStatEqualizer_500[]    = _("POKéMON stats are calculated with\n500 of each base stat.");
-static const u8 sText_Description_Challenges_Mirror_Off[]               = _("The player uses their own party.");
+static const u8 sText_Description_Challenges_Mirror_Off[]               = _("El jugador usa su propio equipo.");
 static const u8 sText_Description_Challenges_Mirror_Trainer[]           = _("In Trainer battles, the player gets\na copy of the enemy's party!");
 static const u8 sText_Description_Challenges_Mirror_All[]               = _("The player gets a copy of the\nenemy's party in {COLOR 7}{COLOR 8}ALL battles!");
-static const u8 sText_Description_Challenges_MirrorThief_Off[]          = _("The player gets their own party back\nafter battles.");
+static const u8 sText_Description_Challenges_MirrorThief_Off[]          = _("Recuperas tu equipo tras\nlas batallas.");
 static const u8 sText_Description_Challenges_MirrorThief_On[]           = _("The player keeps the enemies party\nafter battle!");
-static const u8 sText_Description_Challenges_Expensive_0ff[]            = _("Everything has the usual cost.");
-static const u8 sText_Description_Challenges_Expensive_5[]              = _("Everything is 5 times more\nexpensive!");
+static const u8 sText_Description_Challenges_Expensive_0ff[]            = _("Todo tiene el costo habitual.");
+static const u8 sText_Description_Challenges_Expensive_5[]              = _("¡Todo es 5 veces más\ncaro!");
 static const u8 sText_Description_Challenges_Expensive_10[]             = _("Everything is 10 times more\nexpensive! Good ol' capitalism.");
 static const u8 sText_Description_Challenges_Expensive_50[]             = _("Everything is 50 times more\nexpensive! Ultra capitalism!");
 static const u8 *const sOptionMenuItemDescriptionsChallenges[MENUITEM_CHALLENGES_COUNT][5] =
@@ -1060,7 +1060,7 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledFeatures[MENUITEM_FEAT
 static const u8 sText_Description_Disabled_Random_SimiliarEvolutionLevel[]  = _("Only usable with random starter,\nTrainer, wild or static POKéMON.");
 static const u8 sText_Description_Disabled_Random_IncludeLegendaries[]      = _("Only usable with random starter,\nTrainer, wild or static POKéMON.");
 static const u8 sText_Description_Disabled_Random_Chaos_Mode[]              = _("Only usable if other random options\nare activated.");
-static const u8 sText_Description_Disabled_Random_Type_Effectiveness[]      = _("Currently not available.");
+static const u8 sText_Description_Disabled_Random_Type_Effectiveness[]      = _("No disponible actualmente.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledRandomizer[MENUITEM_RANDOM_COUNT] =
 {
     [MENUITEM_RANDOM_OFF_ON]                    = sText_Empty,
@@ -1081,7 +1081,7 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledRandomizer[MENUITEM_RA
     [MENUITEM_RANDOM_NEXT]                      = sText_Empty,
 };
 
-static const u8 sText_Description_Disabled_Nuzlocke_Nuzlocke[]   = _("Only usable with Nuzlocke!");
+static const u8 sText_Description_Disabled_Nuzlocke_Nuzlocke[]   = _("¡Solo para Nuzlocke!");
 static const u8 *const sOptionMenuItemDescriptionsDisabledNuzlocke[MENUITEM_NUZLOCKE_COUNT] =
 {
     [MENUITEM_NUZLOCKE_NUZLOCKE]            = sText_Empty,
@@ -1107,8 +1107,8 @@ static const u8 *const sOptionMenuItemDescriptionsDisabledDifficulty[MENUITEM_DI
     [MENUITEM_DIFFICULTY_NEXT]                  = sText_Empty,
 };  
 
-static const u8 sText_Description_Disabled_Challenges_MirrorThief[]    = _("Only usable with Mirror Mode!");
-static const u8 sText_Description_Disabled_Features_PCHeal[]  = _("Always disabled with POKéCENTER\nChallenge.");
+static const u8 sText_Description_Disabled_Challenges_MirrorThief[]    = _("¡Solo para Mirror Mode!");
+static const u8 sText_Description_Disabled_Features_PCHeal[]  = _("Desactivado en el\nReto POKéCENTER.");
 static const u8 *const sOptionMenuItemDescriptionsDisabledChallenges[MENUITEM_CHALLENGES_COUNT] =
 {
     [MENUITEM_DIFFICULTY_POKECENTER]            = sText_Empty,
@@ -1224,14 +1224,14 @@ static void VBlankCB(void)
     TransferPlttBuffer();
 }
 
-static const u8 sText_TopBar_Left[]             = _("{L_BUTTON}PREVIOUS");
-static const u8 sText_TopBar_Right[]            = _("{R_BUTTON}NEXT");
-static const u8 sText_TopBar_Mode[]             = _("GAMEMODE");
-static const u8 sText_TopBar_Features[]         = _("FEATURES");
+static const u8 sText_TopBar_Left[]             = _("{L_BUTTON}ANTERIOR");
+static const u8 sText_TopBar_Right[]            = _("{R_BUTTON}SIGUIENTE");
+static const u8 sText_TopBar_Mode[]             = _("MODO DE JUEGO");
+static const u8 sText_TopBar_Features[]         = _("FUNCIONES");
 static const u8 sText_TopBar_Randomizer[]       = _("RANDOMIZER");
 static const u8 sText_TopBar_Nuzlocke[]         = _("NUZLOCKE");
-static const u8 sText_TopBar_Difficulty[]       = _("DIFFICULTY");
-static const u8 sText_TopBar_Challenges[]       = _("CHALLENGES");
+static const u8 sText_TopBar_Difficulty[]       = _("DIFICULTAD");
+static const u8 sText_TopBar_Challenges[]       = _("DESAFÍOS");
 static void DrawTopBarText(void)
 {
     const u8 color[3] = { TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_OPTIONS_GRAY_FG };
@@ -2267,9 +2267,9 @@ static void ReDrawAll(void)
 
 // Draw Choices functions ****SPECIFIC****
 // MENU_RANDOMIZER
-static const u8 sText_Off[]  = _("OFF");
-static const u8 sText_On[]   = _("ON");
-static const u8 sText_None[] = _("NONE");
+static const u8 sText_Off[]  = _("DESACT.");
+static const u8 sText_On[]   = _("ACT.");
+static const u8 sText_None[] = _("NINGUNO");
 static void DrawChoices_Random_OffOn(int selection, int y, bool8 active)
 {
     u8 styles[2] = {0};
@@ -2280,9 +2280,9 @@ static void DrawChoices_Random_OffOn(int selection, int y, bool8 active)
 }
 
 
-static const u8 sClassic[]  = _("RECOMMENDED");
-static const u8 sModern[]   = _("MODERN");
-static const u8 sCustom[]   = _("CUSTOM");
+static const u8 sClassic[]  = _("RECOMENDADO");
+static const u8 sModern[]   = _("MODERNO");
+static const u8 sCustom[]   = _("PERSONALIZADO");
 static const u8 *const sText_Mode_Strings[] = {sClassic,  sCustom};
 
 static void DrawChoices_Mode_Classic_Modern_Selector(int selection, int y)
@@ -2329,7 +2329,7 @@ static void DrawChoices_Mode_Classic_Modern_Selector(int selection, int y)
     }
 }
 
-static const u8 sText_Random[]  = _("RANDOM");
+static const u8 sText_Random[]  = _("ALEATORIO");
 static void DrawChoices_Random_OffRandom(int selection, int y, bool8 active)
 {
     u8 styles[2] = {0};
@@ -2414,7 +2414,7 @@ static void DrawChoices_Random_Items(int selection, int y)
     DrawChoices_Random_OffRandom(selection, y, active);
 }
 
-static const u8 sText_Random_Chaos[] = _("CHAOS");
+static const u8 sText_Random_Chaos[] = _("CAOS");
 static void DrawChoices_Random_OffChaos(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_RANDOM_CHAOS);
@@ -2438,9 +2438,9 @@ static void DrawChoices_Nuzlocke_OnOff(int selection, int y, bool8 active)
     DrawOptionMenuChoice(sText_Off, GetStringRightAlignXOffset(1, sText_Off, 198), y, styles[1], active);
 }
 
-static const u8 sText_Challenges_Nuzlocke_Easy[]        = _("EASY");
+static const u8 sText_Challenges_Nuzlocke_Easy[]        = _("FÁCIL");
 static const u8 sText_Challenges_Nuzlocke_Normal[]      = _("NORMAL");
-static const u8 sText_Challenges_Nuzlocke_Hardcore[]    = _("HARD");
+static const u8 sText_Challenges_Nuzlocke_Hardcore[]    = _("DIFÍCIL");
 static const u8 *const sText_Nuzlocke_Strings[] = {sText_Off, sText_Challenges_Nuzlocke_Easy, sText_Challenges_Nuzlocke_Normal, sText_Challenges_Nuzlocke_Hardcore};
 
 static void DrawChoices_Challenges_Nuzlocke(int selection, int y)
@@ -2486,8 +2486,8 @@ static void DrawChoices_Nuzlocke_Nicknaming(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_NUZLOCKE_NICKNAMING);
     DrawChoices_Nuzlocke_OnOff(selection, y, active);
 }
-static const u8 sText_Nuzlocke_Cemetery[]  = _("CEMETERY");
-static const u8 sText_Nuzlocke_Deletion[]  = _("RELEASE");
+static const u8 sText_Nuzlocke_Cemetery[]  = _("CEMENTERIO");
+static const u8 sText_Nuzlocke_Deletion[]  = _("LIBERAR");
 static void DrawChoices_Nuzlocke_Deletion(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_NUZLOCKE_DELETION);
@@ -2503,7 +2503,7 @@ static void DrawChoices_Nuzlocke_RareCandy(int selection, int y)
 }
 
 // MENU_DIFFICULTY
-static const u8 sText_Yes[] = _("YES");
+static const u8 sText_Yes[] = _("SÍ");
 static const u8 sText_No[]  = _("NO");
 static void DrawChoices_Challenges_YesNo(int selection, int y, bool8 active)
 {
@@ -2528,8 +2528,8 @@ static void DrawChoices_Challenges_NoEVs(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_NO_EVS);
     DrawChoices_Challenges_YesNo(selection, y, active);
 }
-static const u8 sText_ScalingIVsEVs_Scaling[]   = _("SCALE");
-static const u8 sText_ScalingIVsEVs_Hard[]      = _("HARD");
+static const u8 sText_ScalingIVsEVs_Scaling[]   = _("ESCALADO");
+static const u8 sText_ScalingIVsEVs_Hard[]      = _("DIFÍCIL");
 static void DrawChoices_Challenges_ScalingIVs(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_SCALING_IVS);
@@ -2541,7 +2541,7 @@ static void DrawChoices_Challenges_ScalingIVs(int selection, int y)
     DrawOptionMenuChoice(sText_ScalingIVsEVs_Scaling, xMid, y, styles[1], active);
     DrawOptionMenuChoice(sText_ScalingIVsEVs_Hard, GetStringRightAlignXOffset(1, sText_ScalingIVsEVs_Hard, 198), y, styles[2], active);
 }
-static const u8 sText_ScalingIVsEVs_Extrem[]    = _("EXTREM");
+static const u8 sText_ScalingIVsEVs_Extrem[]    = _("EXTREMO");
 static const u8 *const sText_ScalingEVs_Strings[] = {sText_Off, sText_ScalingIVsEVs_Scaling, sText_ScalingIVsEVs_Hard, sText_ScalingIVsEVs_Extrem};
 static void DrawChoices_Challenges_ScalingEVs(int selection, int y)
 {
@@ -2569,7 +2569,7 @@ static void DrawChoices_Challenges_PartyLimit(int selection, int y)
 }
 
 static const u8 sText_Challenges_LevelCap_Normal[]  = _("NORMAL");
-static const u8 sText_Challenges_LevelCap_Hard[]    = _("HARD");
+static const u8 sText_Challenges_LevelCap_Hard[]    = _("DIFÍCIL");
 static void DrawChoices_Challenges_LevelCap(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_DIFFICULTY_LEVEL_CAP);
@@ -2605,8 +2605,8 @@ static void DrawChoices_Challenges_Pokecenters(int selection, int y)
 
 
 // MENU_CHALLENGES
-static const u8 sText_Challenges_EvoLimit_First[]   = _("FIRST");
-static const u8 sText_Challenges_EvoLimit_All[]     = _("ALL");
+static const u8 sText_Challenges_EvoLimit_First[]   = _("PRIMERO");
+static const u8 sText_Challenges_EvoLimit_All[]     = _("TODO");
 static void DrawChoices_Challenges_EvoLimit(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_CHALLENGES_EVO_LIMIT);
@@ -2646,7 +2646,7 @@ static void DrawChoices_Challenges_BaseStatEqualizer(int selection, int y)
     DrawChoices_Options_Four(sText_Challenges_BaseStatEqualizer_Strings, selection, y, active);
 }
 
-static const u8 sText_Challenges_Mirror_All[]   = _("ALL");
+static const u8 sText_Challenges_Mirror_All[]   = _("TODO");
 static void DrawChoices_Challenges_Mirror(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_CHALLENGES_MIRROR);
@@ -2670,7 +2670,7 @@ static void DrawChoices_Challenges_Mirror_Thief(int selection, int y)
 }
 
 static const u8 sText_Features_RTC_RTC[]   = _("RTC");
-static const u8 sText_Features_RTC_Fake_RTC[]   = _("FAKE RTC");
+static const u8 sText_Features_RTC_Fake_RTC[]   = _("RTC FALSO");
 static void DrawChoices_Features_Rtc_Type(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_FEATURES_RTC_TYPE);
@@ -2691,7 +2691,7 @@ static void DrawChoices_Features_Rtc_Type(int selection, int y)
 }
 
 static const u8 sText_Encounters_Vanilla_Long[]   = _("ORIGINAL");
-static const u8 sText_Encounters_Modern_Long[]    = _("MODERN");
+static const u8 sText_Encounters_Modern_Long[]    = _("MODERNO");
 
 /*static void DrawChoices_Mode_AlternateSpawns(int selection, int y)
 {
@@ -3179,8 +3179,8 @@ static void DrawChoices_Difficulty_Escape_Rope_Dig(int selection, int y)
     DrawOptionMenuChoice(sText_No, GetStringRightAlignXOffset(1, sText_No, 198), y, styles[1], active);
 }
 
-static const u8 sText_Features_Frontier_Ban[]   = _("BAN");
-static const u8 sText_Features_Frontier_UnBan[]     = _("UNBAN");
+static const u8 sText_Features_Frontier_Ban[]   = _("BANEO");
+static const u8 sText_Features_Frontier_UnBan[]     = _("DESBANEO");
 static void DrawChoices_Features_FrontierBans(int selection, int y)
 {
     bool8 active = CheckConditions(MENUITEM_FEATURES_FRONTIER_BANS);
@@ -3200,7 +3200,7 @@ static void DrawChoices_Features_FrontierBans(int selection, int y)
     DrawOptionMenuChoice(sText_Features_Frontier_UnBan, GetStringRightAlignXOffset(1, sText_Features_Frontier_UnBan, 198), y, styles[1], active);
 }
 
-/*static const u8 sText_Difficulty_HardExp_Enabled[]   = _("DEFAULT");
+/*static const u8 sText_Difficulty_HardExp_Enabled[]   = _("PREDETERM.");
 static const u8 sText_Difficulty_HardExp_Disabled[]  = _("NORMAL");
 static void DrawChoices_Difficulty_HardExp(int selection, int y)
 {

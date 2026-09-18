@@ -7,11 +7,11 @@ BattleFrontier_Lounge6_EventScript_Trader::
 	end
 
 BattleFrontier_Lounge6_Text_WouldYouLikeToTrade:
-	.string "My POKéMON is a SKITTY.\n"
-	.string "Do you know it?\l"
-	.string "It's quite cute and rather nice.\p"
-	.string "This little one, I couldn't trade with\n"
-	.string "pride!$"
+	.string "Mi POKéMON es un SKITTY.\n"
+	.string "¿Lo conoces?\l"
+	.string "Es lindo y muy agradable.\p"
+	.string "¡A este pequeño no podría darlo\n"
+	.string "en intercambio!$"
 
 @	
 @	lock
