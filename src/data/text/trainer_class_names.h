@@ -1,4 +1,8 @@
-const u8 gTrainerClassNames[][13] = {
+// Traduccion ES: campo ampliado de 13 a 19 bytes.
+// Los nombres de clase en espanol llegan a 17 bytes (HOMBRE MISTERIOSO);
+// con 13 se recortaban sin terminador y el copiado hasta EOS seguia leyendo
+// dentro de la entrada siguiente.
+const u8 gTrainerClassNames[][19] = {
     [TRAINER_CLASS_PKMN_TRAINER_1] = _("ENTRENADOR {PKMN}"),
     [TRAINER_CLASS_PKMN_TRAINER_2] = _("ENTRENADOR {PKMN}"),
     [TRAINER_CLASS_HIKER] = _("EXCURSIONISTA"),
