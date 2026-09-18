@@ -33,9 +33,6 @@ niega a aplicarse en vez de darte un ROM roto.
 > El juego base y su parche son de sus autores (PokemonHnS-Development). Aca se enlazan a su
 > repositorio oficial: no se rehospeda su archivo, y no se distribuye ningun ROM.
 
-El parche verifica tu ROM base: si no es exactamente el Heart & Soul v1.2.1, se niega a aplicarse
-en vez de darte un ROM roto.
-
 ## Que trae la traduccion
 
 - **20.391 de 20.464 cadenas traducidas (99,6%)**
