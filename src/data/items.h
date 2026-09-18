@@ -1446,7 +1446,7 @@ const struct Item gItems[] =
 
     [ITEM_073] =
     {
-        .name = _("BAYA SITRUS"),
+        .name = _("Baya Citrón"),
         .itemId = ITEM_073,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_SITRUS,
@@ -1459,7 +1459,7 @@ const struct Item gItems[] =
 
     [ITEM_074] =
     {
-        .name = _("BAYA CHESTO"),
+        .name = _("Baya Atania"),
         .itemId = ITEM_074,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_CHESTO,
@@ -1471,7 +1471,7 @@ const struct Item gItems[] =
 
     [ITEM_075] =
     {
-        .name = _("RESTOS"),
+        .name = _("Restos"),
         .itemId = ITEM_075,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_LEFTOVERS,
@@ -1484,7 +1484,7 @@ const struct Item gItems[] =
 
     [ITEM_076] =
     {
-        .name = _("BAYA LIECHI"),
+        .name = _("Baya Lichi"),
         .itemId = ITEM_076,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_LIECHI,
@@ -2198,7 +2198,7 @@ const struct Item gItems[] =
 
     [ITEM_UNUSED_BERRY_1] =
     {
-        .name = _("BAYA SITRÓN"),
+        .name = _("Baya Citrón"),
         .itemId = ITEM_SITRUS_BERRY,
         .price = 20,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
@@ -2831,7 +2831,7 @@ const struct Item gItems[] =
 
     [ITEM_INFINITE_REPEL] =
     {
-        .name = _("REPEL INFIN."),
+        .name = _("REPEL. INFIN."),
         .itemId = ITEM_INFINITE_REPEL,
         .price = 0,
         .description = sInfiniteRepel,
@@ -5918,7 +5918,7 @@ const struct Item gItems2[] =
 
     [ITEM_X_SPECIAL] =
     {
-        .name = _("X ESP."),
+        .name = _("X ESPECIAL"),
         .itemId = ITEM_X_SPECIAL,
         .price = 350,
         .description = sXSpecialDesc,
@@ -6333,7 +6333,7 @@ const struct Item gItems2[] =
 
     [ITEM_073] =
     {
-        .name = _("BAYA SITRA"),
+        .name = _("Baya Citrón"),
         .itemId = ITEM_073,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_SITRUS,
@@ -6346,7 +6346,7 @@ const struct Item gItems2[] =
 
     [ITEM_074] =
     {
-        .name = _("BAYA CHESTO"),
+        .name = _("Baya Atania"),
         .itemId = ITEM_074,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_CHESTO,
@@ -6358,7 +6358,7 @@ const struct Item gItems2[] =
 
     [ITEM_075] =
     {
-        .name = _("RESTOS"),
+        .name = _("Restos"),
         .itemId = ITEM_075,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_LEFTOVERS,
@@ -6371,7 +6371,7 @@ const struct Item gItems2[] =
 
     [ITEM_076] =
     {
-        .name = _("BAYA LIECHI"),
+        .name = _("Baya Lichi"),
         .itemId = ITEM_076,
         .price = 0,
         .holdEffect = HOLD_EFFECT_HARD_MODE_MODIFIER_LIECHI,
@@ -7085,7 +7085,7 @@ const struct Item gItems2[] =
 
     [ITEM_UNUSED_BERRY_1] =
     {
-        .name = _("BAYA SITRUS"),
+        .name = _("Baya Citrón"),
         .itemId = ITEM_SITRUS_BERRY,
         .price = 20,
         .holdEffect = HOLD_EFFECT_RESTORE_HP,
