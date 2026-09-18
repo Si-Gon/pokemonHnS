@@ -107,7 +107,7 @@ LavenderTown_RadioStation_Text_SuperNerd2:
 	.string "una!$"
 
 LavenderTown_RadioStation_Text_SuperNerd2_GotExpnCard:
-	.string "¡Hola!<\p"
+	.string "¡Hola!\p"
 	.string "¡Soy el súper DIRECTOR MUSICAL!\p"
 	.string "Hago las hermosas melodías\n"
 	.string "que salen al aire.\p"

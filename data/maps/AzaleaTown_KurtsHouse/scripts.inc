@@ -404,7 +404,7 @@ KurtsHouse_Text_KurtGetStarted:
 	.string "KURT: ¡Empezaré ahora mismo!$"
 
 KurtsHouse_Text_KurtMakingBallsMustWait:
-	.string "<? ¿Quién eres?\p"
+	.string "¿Mmm? ¿Quién eres?\p"
 	.string "{PLAYER}, ¿eh? ¿Quieres que haga\n"
 	.string "unas BALLS?\p"
 	.string "Lo siento, eso tendrá que esperar.\p"
