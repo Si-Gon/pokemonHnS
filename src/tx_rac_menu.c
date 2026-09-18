@@ -2177,18 +2177,6 @@ static void DrawOptionMenuChoice(const u8 *text, u8 x, u8 y, u8 style, bool8 act
     DrawRightSideChoiceText(text, x, y+1, choosen, active);
 }
 
-static void DrawChoices_Options_Four(const u8 *const *const strings, int selection, int y, bool8 active)
-{
-    DrawChoiceRowFrom(strings, 4, selection, y, active, 3);
-}
-
-
-static void DrawChoices_Options_Three(const u8 *const *const strings, int selection, int y, bool8 active)
-{
-    DrawChoiceRowFrom(strings, 3, selection, y, active, 2);
-}
-
-
 // Dibuja los valores de una opcion midiendo cada texto antes de colocarlo.
 // Si no caben todos, muestra solo los que entran: nunca se solapan.
 #define CHOICE_X_START 104
@@ -2228,6 +2216,19 @@ static void DrawChoiceRowFrom(const u8 *const *strings, int count, int selection
         x += (int)widths[i] + CHOICE_GAP;
     }
 }
+
+static void DrawChoices_Options_Four(const u8 *const *const strings, int selection, int y, bool8 active)
+{
+    DrawChoiceRowFrom(strings, 4, selection, y, active, 3);
+}
+
+
+static void DrawChoices_Options_Three(const u8 *const *const strings, int selection, int y, bool8 active)
+{
+    DrawChoiceRowFrom(strings, 3, selection, y, active, 2);
+}
+
+
 
 static void DrawChoices_Options_Five(const u8 *const *const strings, int selection, int y, bool8 active)
 {
