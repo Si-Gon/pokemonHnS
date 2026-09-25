@@ -1,6 +1,6 @@
 const u8 gEasyChatWord_Will[] = _("VOLUNTAD");
 const u8 gEasyChatWord_WillBeHere[] = _("ESTARÁ AQUÍ");
-const u8 gEasyChatWord_Or[] = _("OR");
+const u8 gEasyChatWord_Or[] = _("O");
 const u8 gEasyChatWord_Times[] = _("TIMES");
 const u8 gEasyChatWord_Wonder[] = _("WONDER");
 const u8 gEasyChatWord_IsItQues[] = _("IS IT?");

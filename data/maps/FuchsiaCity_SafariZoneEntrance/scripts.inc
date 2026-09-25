@@ -232,7 +232,7 @@ FuchsiaCity_SafariZoneEntrance_Text_StevenWelcome:
 	.string "SAFARI LEVEL.\p"
 	.string "Habla con el asistente aquí\n"
 	.string "cuando quieras subir tu SAFARI\l"
-	.string "LEVEL.$"
+	.string "NIVEL.$"
 
 FuchsiaCity_SafariZoneEntrance_UpgradeGuy::
 	goto_if_eq VAR_KANTO_SAFARI_ZONE_PROGRESS, 1, FuchsiaCity_SafariZoneEntrance_UpgradeGuy1

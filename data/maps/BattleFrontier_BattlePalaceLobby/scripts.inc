@@ -474,7 +474,7 @@ BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
 	.string "Por tu racha de 7 victorias,\n"
-	.string "te damos Battle Point(s).$"
+	.string "te damos Punto(s) de Batalla.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "No tienes espacio para\n"

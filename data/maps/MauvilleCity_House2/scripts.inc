@@ -61,5 +61,5 @@ MauvilleCity_House2_Text_UseCoinCaseAtGameCorner:
 MauvilleCity_House2_Text_ThatsDisappointing:
 	.string "Oh, qué decepción.\p"
 	.string "Se necesita un COIN CASE para el\n"
-	.string "GAME CORNER.$"
+	.string "CASINO.$"
 

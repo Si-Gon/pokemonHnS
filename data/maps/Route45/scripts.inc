@@ -171,7 +171,7 @@ Route45_Text_CamperQuentinSeen:
     .string "¡Soy muy, muy fuerte!$"
 
 Route45_Text_CamperQuentinBeaten:
-    .string "Fui fuerte en TRAINER HILL…$"
+    .string "Fui fuerte en COLINA ENTRENADOR…$"
 
 Route45_Text_CamperQuentinAfter:
     .string "¿Fuiste a TRAINER HILL?\p"

@@ -613,7 +613,7 @@ BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
 	.string "{PLAYER} cambió la BAG por la\n"
-	.string "BATTLE BAG.$"
+	.string "BOLSA DE COMBATE.$"
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
 	.string "Al pisar este panel del suelo,\n"

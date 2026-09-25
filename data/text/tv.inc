@@ -671,7 +671,7 @@ gTVTrainerFanClubSpecialText00::
 	.string "“{STR_VAR_3} {STR_VAR_1}.”\n"
 	.string "It has such a nice ring to it!\p"
 	.string "{STR_VAR_2} also scored {STR_VAR_1}'s\n"
-	.string "strength from 0 to 100.$"
+	.string "fuerza del 0 al 100.$"
 
 gTVTrainerFanClubSpecialText01::
 	.string "¡La puntuación fue {STR_VAR_3}!\n"

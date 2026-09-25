@@ -388,7 +388,7 @@ BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
 	.string "continuar con tu desafío.\p"
 	.string "Si logras vencer a siete\n"
 	.string "ENTRENADORES seguidos,\l"
-	.string "te daremos Battle Points.$"
+	.string "te daremos Puntos de Batalla.$"
 
 BattleFrontier_BattleArenaLobby_Text_OkayToSave:
 	.string "Antes de ir a la BATTLE\n"

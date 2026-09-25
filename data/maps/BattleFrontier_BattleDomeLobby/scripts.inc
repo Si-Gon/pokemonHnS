@@ -645,7 +645,7 @@ BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
 	.string "Por tu gran estrategia...\n"
 	.string "fue algo hermoso de ver...\l"
-	.string "¡te damos estos Battle Point(s)!$"
+	.string "¡te damos estos Punto(s) de Batalla!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
 	.string "¿Quieres grabar tu\n"

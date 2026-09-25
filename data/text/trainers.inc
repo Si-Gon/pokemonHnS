@@ -4413,7 +4413,7 @@ Route131_Text_SusiePostBattle:
 
 Route131_Text_KaraIntro:
 	.string "Why do men love bathing suits so much?\p"
-	.string "They all ogle me!$"
+	.string "¡Todos me miran!$"
 
 Route131_Text_KaraDefeat:
 	.string "¡Esto me supera!$"

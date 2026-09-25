@@ -362,7 +362,7 @@ BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
 	.string "Para conmemorar que completaste\n"
 	.string "el desafío de Battle Choice, te doy\l"
-	.string "estos Battle Points…$"
+	.string "estos Puntos de Batalla…$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
