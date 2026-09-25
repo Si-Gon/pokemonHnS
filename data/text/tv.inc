@@ -717,7 +717,7 @@ gTVNameRaterText00::
 	.string "POKéMON {STR_VAR_2}.\p"
 	.string "Hmhm…\p"
 	.string "Hmm…\n"
-	.string "This nickname is…$"
+	.string "Este mote es…$"
 
 gTVNameRaterText01::
 	.string "Un apodo que sugiere talento de\n"
@@ -1536,7 +1536,7 @@ gTVSecretBaseVisitText09::
 	.string "{STR_VAR_3}…\p"
 	.string "It shows you what sort of a TRAINER\n"
 	.string "{STR_VAR_1} is.\p"
-	.string "Certainly, it was quite a lesson!$"
+	.string "¡Sin duda, toda una lección!$"
 
 gTVSecretBaseVisitText10::
 	.string "¡Ayy!\n"
@@ -2874,7 +2874,7 @@ gTVInSearchOfTrainersText03::
 	.string "{STR_VAR_2} was the move the TRAINER\n"
 	.string "used last in our battle.\p"
 	.string "The move {STR_VAR_2} is {STR_VAR_1}\n"
-	.string "and {STR_VAR_3}'s sign of friendship!$"
+	.string "y muestra de amistad de {STR_VAR_3}!$"
 
 gTVInSearchOfTrainersText04::
 	.string "…Perdí la confianza en mí mismo\n"
