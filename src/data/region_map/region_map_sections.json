@@ -354,7 +354,7 @@
     },
     {
       "map_section": "MAPSEC_SOUTHERN_ISLAND",
-      "name": "SOUTHERN ISLAND",
+      "name": "ISLA DEL SUR",
       "x": 9,
       "y": 14,
       "width": 1,
@@ -362,7 +362,7 @@
     },
     {
       "map_section": "MAPSEC_FARAWAY_ISLAND",
-      "name": "FARAWAY ISLAND",
+      "name": "ISLA LEJANA",
       "x": 9,
       "y": 14,
       "width": 1,
@@ -618,7 +618,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERGROUND_PATH_2",
-      "name": "UNDERGROUND PATH",
+      "name": "CAMINO SUBTERRANEO",
       "x": 24,
       "y": 5,
       "width": 1,
@@ -642,7 +642,7 @@
     },
     {
       "map_section": "MAPSEC_SILPH_CO",
-      "name": "SILPH CO.",
+      "name": "SILPH S.A.",
       "x": 24,
       "y": 5,
       "width": 1,
@@ -762,7 +762,7 @@
     },
     {
       "map_section": "MAPSEC_MT_MORTAR",
-      "name": "MT MORTAR",
+      "name": "MONTE MORTERO",
       "x": 12,
       "y": 1,
       "width": 1,
@@ -794,7 +794,7 @@
     },
     {
       "map_section": "MAPSEC_TOHJO_FALLS",
-      "name": "TOHJO FALLS",
+      "name": "CATARATAS TOHJO",
       "x": 20,
       "y": 9,
       "width": 1,
@@ -890,7 +890,7 @@
     },
     {
       "map_section": "MAPSEC_LILYCOVE_CITY",
-      "name": "CONTEST HALL",
+      "name": "SALA DE CONCURSOS",
       "x": 2,
       "y": 17,
       "width": 1,
@@ -914,7 +914,7 @@
     },
     {
       "map_section": "MAPSEC_TRAINER_HILL",
-      "name": "TRAINER HILL",
+      "name": "COLINA ENTRENADOR",
       "x": 2,
       "y": 5,
       "width": 1,
