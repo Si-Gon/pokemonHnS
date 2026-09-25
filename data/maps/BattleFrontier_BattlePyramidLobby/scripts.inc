@@ -609,7 +609,7 @@ BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
 	.string "A cambio, por favor toma esta\n"
-	.string "BATTLE BAG.$"
+	.string "BOLSA BATALLA.$"
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
 	.string "{PLAYER} cambió la BAG por la\n"
@@ -646,7 +646,7 @@ BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
 
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
 	.string "Los objetos de tus POKéMON irán a tu\n"
-	.string "BATTLE BAG, {PLAYER}.$"
+	.string "BOLSA BATALLA, {PLAYER}.$"
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
 	.string "La BATTLE BAG no tiene espacio para\n"

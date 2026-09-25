@@ -239,7 +239,7 @@ BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
 
 BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
 	.string "{PLAYER} obtuvo\n"
-	.string "{STR_VAR_1} Battle Point(s).$"
+	.string "{STR_VAR_1} Punto(s) de Batalla.$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
 	.string "SCOTT: Mira tus Battle Points\n"

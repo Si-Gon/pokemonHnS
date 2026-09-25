@@ -71,7 +71,7 @@ gTVBravoTrainerText03::
 	.string "Well, sure, {STR_VAR_1}'s POKéMON came in\n"
 	.string "number {STR_VAR_3} in the CONTEST.\p"
 	.string "That line perfectly suits {STR_VAR_1}\n"
-	.string "right now, I'd say!$"
+	.string "justo ahora, ¡diría!$"
 
 gTVBravoTrainerText04::
 	.string "Al preguntarle sobre el CONCURSO,\n"
@@ -606,7 +606,7 @@ gTV3CheersForPokeblocksText04::
 	.string "It's too bad that {STR_VAR_1}'s\n"
 	.string "leading effort went to waste.\p"
 	.string "Let's hope {STR_VAR_2} can turn in\n"
-	.string "a better showing next time!$"
+	.string "una mejor presentación la próxima vez!$"
 
 gTV3CheersForPokeblocksText05::
 	.string "¡Sintonícennos la próxima vez!\n"
@@ -1399,7 +1399,7 @@ gTVBreakingNewsText04::
 	.string "I must say I'm a little envious of\n"
 	.string "{STR_VAR_1}. I'd love to roar, too.\p"
 	.string "…That ends the live feed from\n"
-	.string "the happy scene!$"
+	.string "la escena feliz!$"
 
 gTVBreakingNewsText05::
 	.string "{STR_VAR_1} no pudo capturar a un\n"
@@ -1575,7 +1575,7 @@ gTVSecretBaseVisitText12::
 	.string "{STR_VAR_3}…\p"
 	.string "It shows you what sort of a TRAINER\n"
 	.string "{STR_VAR_1} is.\p"
-	.string "Certainly, it was quite a lesson!$"
+	.string "¡Ciertamente, fue toda una lección!$"
 
 gTVSecretBaseVisitText13::
 	.string "¡Debo decir que fue una BASE SECRETA\n"
@@ -1760,7 +1760,7 @@ TVSpotTheCuties_Text_RibbonsMid::
 	.string "{STR_VAR_2} wears an amazing\n"
 	.string "{STR_VAR_3} RIBBONS!\p"
 	.string "It speaks volumes about {STR_VAR_1}'s\n"
-	.string "commitment to the POKéMON!$"
+	.string "compromiso con los POKéMON!$"
 
 TVSpotTheCuties_Text_RibbonsHigh::
 	.string "{STR_VAR_2} wears an incredible\n"
@@ -2090,7 +2090,7 @@ TVSecretBaseSecrets_Text_Intro::
 	.string "Oh? It looks like {STR_VAR_2} has come\n"
 	.string "for a visit.\p"
 	.string "Let's have a peek!\p"
-	.string "What will {STR_VAR_2} do?$"
+	.string "¿Qué hará {STR_VAR_2}?$"
 
 TVSecretBaseSecrets_Text_WhatWillPlayerDoNext1::
 	.string "¿Qué hará {STR_VAR_2} ahora?$"
