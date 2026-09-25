@@ -45,7 +45,7 @@
     },
     {
       "map_section": "MAPSEC_CIANWOOD_CITY",
-      "name": "CIUDAD ORQUIDEA",
+      "name": "CIUDAD ORQUÍDEA",
       "x": 4,
       "y": 11,
       "width": 1,
@@ -85,7 +85,7 @@
     },
     {
       "map_section": "MAPSEC_INDIGO_PLATEAU",
-      "name": "MESETA ANIL",
+      "name": "MESETA AÑIL",
       "x": 24,
       "y": 3,
       "width": 1,
@@ -333,7 +333,7 @@
     },
     {
       "map_section": "MAPSEC_VERMILION_CITY",
-      "name": "CIUDAD CARMIN",
+      "name": "CIUDAD CARMÍN",
       "x": 24,
       "y": 7,
       "width": 1,
@@ -389,7 +389,7 @@
     },
     {
       "map_section": "MAPSEC_SAFFRON_CITY",
-      "name": "CIUDAD AZAFRAN",
+      "name": "CIUDAD AZAFRÁN",
       "x": 24,
       "y": 5,
       "width": 1,
@@ -621,7 +621,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERGROUND_PATH_2",
-      "name": "CAMINO SUBTERRANEO",
+      "name": "CAMINO SUBTERRÁNEO",
       "x": 24,
       "y": 5,
       "width": 1,
@@ -653,7 +653,7 @@
     },
     {
       "map_section": "MAPSEC_ROCK_TUNNEL",
-      "name": "TUNEL ROCA",
+      "name": "TÚNEL ROCA",
       "x": 27,
       "y": 3,
       "width": 1,
@@ -685,7 +685,7 @@
     },
     {
       "map_section": "MAPSEC_POWER_PLANT",
-      "name": "CENTRAL ENERGETICA",
+      "name": "CENTRAL ENERGÍA",
       "x": 27,
       "y": 3,
       "width": 1,
@@ -725,7 +725,7 @@
     },
     {
       "map_section": "MAPSEC_UNION_CAVE",
-      "name": "CUEVA UNION",
+      "name": "CUEVA UNIÓN",
       "x": 12,
       "y": 11,
       "width": 1,
@@ -733,7 +733,7 @@
     },
     {
       "map_section": "MAPSEC_ILEX_FOREST",
-      "name": "BOSQUE AZALEA",
+      "name": "ENCINAR",
       "x": 8,
       "y": 12,
       "width": 2,
@@ -781,7 +781,7 @@
     },
     {
       "map_section": "MAPSEC_ICE_PATH",
-      "name": "CAMINO HELADO",
+      "name": "RUTA HELADA",
       "x": 17,
       "y": 1,
       "width": 1,
@@ -805,7 +805,7 @@
     },
     {
       "map_section": "MAPSEC_SPROUT_TOWER",
-      "name": "TORRE BELLOTA",
+      "name": "TORRE BELLSPROUT",
       "x": 12,
       "y": 3,
       "width": 1,
@@ -821,7 +821,7 @@
     },
     {
       "map_section": "MAPSEC_BURNED_TOWER",
-      "name": "TORRE CALCINADA",
+      "name": "TORRE QUEMADA",
       "x": 9,
       "y": 1,
       "width": 1,
@@ -829,7 +829,7 @@
     },
     {
       "map_section": "MAPSEC_TIN_TOWER",
-      "name": "TORRE BELLOTA",
+      "name": "TORRE BELLSPROUT",
       "x": 10,
       "y": 1,
       "width": 1,
@@ -837,7 +837,7 @@
     },
     {
       "map_section": "MAPSEC_DRAGONS_DEN",
-      "name": "GUARIDA DRAGON",
+      "name": "GUARIDA DRAGÓN",
       "x": 12,
       "y": 2,
       "width": 1,
@@ -869,7 +869,7 @@
     },
     {
       "map_section": "MAPSEC_OLIVINE_LIGHTHOUSE",
-      "name": "FARO",
+      "name": "FARO DE OLIVO",
       "x": 7,
       "y": 4,
       "width": 1,
