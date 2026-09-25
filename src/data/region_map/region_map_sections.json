@@ -370,7 +370,7 @@
     },
     {
       "map_section": "MAPSEC_BIRTH_ISLAND",
-      "name": "BIRTH ISLAND",
+      "name": "ISLA ORIGEN",
       "x": 9,
       "y": 14,
       "width": 1,
@@ -754,7 +754,7 @@
     },
     {
       "map_section": "MAPSEC_CLIFF_CAVE",
-      "name": "CLIFF CAVE",
+      "name": "CUEVA ACANTILADO",
       "x": 3,
       "y": 11,
       "width": 1,
