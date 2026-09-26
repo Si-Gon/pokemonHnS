@@ -419,7 +419,7 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 	.string "El EXCHANGE SERVICE CORNER está\n"
 	.string "cerca de la BATTLE TOWER.\p"
-	.string "Los Battle Points ganados en la\n"
+	.string "Los Puntos de Batalla ganados en la\n"
 	.string "BATTLE FRONTIER se canjean por\l"
 	.string "premios fabulosos allí.$"
 
@@ -503,10 +503,10 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "al finalizar la batalla.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
-	.string "Los Battle Points son premios para\n"
+	.string "Los Puntos de Batalla son premios para\n"
 	.string "ENTRENADORES destacados en la\l"
 	.string "BATTLE FRONTIER.\p"
-	.string "Puedes canjear tus Battle Points\n"
+	.string "Puedes canjear tus Puntos de Batalla\n"
 	.string "por premios en el EXCHANGE\l"
 	.string "SERVICE CORNER.$"
 

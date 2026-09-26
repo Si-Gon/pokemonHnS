@@ -369,7 +369,7 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "especiales y lindos.\p"
 	.string "Pero mis lecciones no son gratis.\n"
 	.string "¿Qué tal si pagas los movimientos\l"
-	.string "con unos pocos Battle Points?$"
+	.string "con unos pocos Puntos de Batalla?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
 	.string "¡Buhahaha!\p"
@@ -382,7 +382,7 @@ BattleFrontier_Lounge7_Text_TeachWhichMove:
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
 	.string "¿El movimiento {STR_VAR_1}, eh?\n"
-	.string "Serán {STR_VAR_2} Battle Points, ¿está bien?$"
+	.string "Serán {STR_VAR_2} Puntos de Batalla, ¿está bien?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
 	.string "Bien, bien, ahora elige al POKéMON\n"
@@ -390,11 +390,11 @@ BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
 	.string "Pero qué…\n"
-	.string "¡No tienes suficientes Battle Points!$"
+	.string "¡No tienes suficientes Puntos de Batalla!$"
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
 	.string "¿Ves ahora lo hábil que soy?\n"
-	.string "¡Me llevo tus Battle Points, gracias!$"
+	.string "¡Me llevo tus Puntos de Batalla, gracias!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
 	.string "¿Qué dices?\n"

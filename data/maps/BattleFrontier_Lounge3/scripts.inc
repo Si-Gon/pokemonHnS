@@ -215,10 +215,10 @@ BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 	.string "de la BATTLE FRONTIER.\p"
 	.string "Luego, cada uno elige un ENTRENADOR\n"
 	.string "que acepte ese desafío,\l"
-	.string "y apostamos Battle Points.\p"
+	.string "y apostamos Puntos de Batalla.\p"
 	.string "Quien apueste por el ENTRENADOR con\n"
 	.string "mejor récord se lleva todos los\l"
-	.string "Battle Points del pozo.\p"
+	.string "Puntos de Batalla del pozo.\p"
 	.string "Suena simple, ¿no?\n"
 	.string "Así que, bueno...$"
 
@@ -314,7 +314,7 @@ BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
 BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints::
 	.string "Muy bien, es perfecto.\n"
 	.string "Entonces... ¿Podrías darme algunos\l"
-	.string "de tus Battle Points?\p"
+	.string "de tus Puntos de Batalla?\p"
 	.string "Confía en mí, te mostraré mi gratitud\n"
 	.string "después.$"
 
@@ -420,7 +420,7 @@ BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
 	.string "Ah, eres tú...\n"
 	.string "Buen intento...\p"
 	.string "Siento decirte que no puedo\n"
-	.string "devolverte tus Battle Points...\p"
+	.string "devolverte tus Puntos de Batalla...\p"
 	.string "¡Que esto nos motive a esforzarnos\n"
 	.string "más la próxima vez!$"
 
@@ -430,12 +430,12 @@ BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
 	.string "¡Sabía que podías!\n"
 	.string "¡Sabía que lo harías!\l"
 	.string "¡Ambos somos ganadores!\p"
-	.string "Te daré tus Battle Points y,\n"
+	.string "Te daré tus Puntos de Batalla y,\n"
 	.string "¡claro, un extra de mi parte!$"
 
 BattleFrontier_Lounge3_Text_ObtainedBattlePoints::
 	.string "{PLAYER} obtuvo\n"
-	.string "{STR_VAR_1} Battle Points.$"
+	.string "{STR_VAR_1} Puntos de Batalla.$"
 
 BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge::
 	.string "Si quieres otro desafío,\n"

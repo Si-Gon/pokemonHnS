@@ -1611,7 +1611,7 @@ gTVPokemonLotteryWinnerFlashReportText00::
 	.string "HOENN!$"
 
 gTVThePokemonBattleSeminarText00::
-	.string "THE POKéMON BATTLE SEMINAR!\p"
+	.string "THE SEMINARIO DE COMBATE POKéMON!\p"
 	.string "Analizamos combates para ver qué\n"
 	.string "lecciones sacamos de otros.\p"
 	.string "El caso de hoy trata sobre el\n"

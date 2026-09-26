@@ -292,7 +292,7 @@ BattleFrontier_OutsideEast_Text_RankingHallSign:
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
 	.string "CANJE DE BATTLE POINTS\n"
-	.string "¡Canjea tus Battle Points y\l"
+	.string "¡Canjea tus Puntos de Batalla y\l"
 	.string "comercia con otros ENTRENADORES!$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
@@ -450,7 +450,7 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
 	.string "La BATTLE FRONTIER no es solo\n"
-	.string "para TRAINERS fuertes.\p"
+	.string "para ENTRENADORES fuertes.\p"
 	.string "Parece que invitaron a mucha gente\n"
 	.string "con habilidades especiales.\p"
 	.string "Ese hombre, SCOTT...\p"

@@ -463,7 +463,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_OldWTMan_Text:
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
 	.string "Hola, este es el RINCÓN DEL\n"
 	.string "SERVICIO DE INTERCAMBIO.\p"
-	.string "Cambiamos tus Battle Points por\n"
+	.string "Cambiamos tus Puntos de Batalla por\n"
 	.string "lindos premios.\p"
 	.string "Elige un premio de la lista.$"
 

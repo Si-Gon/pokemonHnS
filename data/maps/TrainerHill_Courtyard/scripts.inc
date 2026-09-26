@@ -465,7 +465,7 @@ TrainerHill_Courtyard_Text_LeftTutorIntro:
 	.string "especiales y lindos.\p"
 	.string "Pero mis clases no son gratis.\n"
 	.string "¿Qué tal pagar los movimientos\l"
-	.string "con unos pocos Battle Points?$"
+	.string "con unos pocos Puntos de Batalla?$"
 
 TrainerHill_Courtyard_Text_LeftTutorWelcomeBack:
 	.string "¡Buhahaha!\p"
@@ -478,7 +478,7 @@ TrainerHill_Courtyard_Text_TeachWhichMove:
 
 TrainerHill_Courtyard_Text_MoveWillBeXBattlePoints:
 	.string "El movimiento {STR_VAR_1}, ¿sí?\n"
-	.string "Serán {STR_VAR_2} Battle Points, ¿está bien?$"
+	.string "Serán {STR_VAR_2} Puntos de Batalla, ¿está bien?$"
 
 TrainerHill_Courtyard_Text_TeachMoveToWhichMon:
 	.string "Bien, bien, ahora elige al POKéMON\n"
@@ -486,11 +486,11 @@ TrainerHill_Courtyard_Text_TeachMoveToWhichMon:
 
 TrainerHill_Courtyard_Text_HaventGotEnoughPoints:
 	.string "Pero qué…\n"
-	.string "¡No tienes suficientes Battle Points!$"
+	.string "¡No tienes suficientes Puntos de Batalla!$"
 
 TrainerHill_Courtyard_Text_IllTakeBattlePoints:
 	.string "¿Ves ahora lo hábil que soy?\n"
-	.string "¡Me llevo tus Battle Points, gracias!$"
+	.string "¡Me llevo tus Puntos de Batalla, gracias!$"
 
 TrainerHill_Courtyard_Text_YouDontWantTo:
 	.string "¿Qué dices?\n"

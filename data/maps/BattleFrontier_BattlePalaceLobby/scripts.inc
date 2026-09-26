@@ -403,7 +403,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "naturaleza y lucharán solos.\p"
 	.string "Debes confiar en tus POKéMON\n"
 	.string "y vigilarlos.\p"
-	.string "Si logras vencer a siete TRAINERS\n"
+	.string "Si logras vencer a siete ENTRENADORES\n"
 	.string "seguidos,\l"
 	.string "te daremos Puntos de Batalla.\p"
 	.string "Si quieres interrumpir el reto,\n"

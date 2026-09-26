@@ -595,7 +595,7 @@ BattlePyramid_Text_ZeroTrainersRemaining2::
 
 BattlePyramid_Text_SevenTrainersRemaining3::
 	.string "¡Es muy impresionante!\p"
-	.string "Pero hay siete TRAINERS más\n"
+	.string "Pero hay siete ENTRENADORES más\n"
 	.string "en este piso. ¿Vencerás a todos?$"
 
 BattlePyramid_Text_SixTrainersRemaining3::
@@ -667,7 +667,7 @@ BattlePyramid_Text_ZeroTrainersRemaining4::
 
 BattlePyramid_Text_SevenTrainersRemaining5::
 	.string "Podrías ser capaz de vencer a los\n"
-	.string "siete TRAINERS expertos que quedan.$"
+	.string "siete ENTRENADORES expertos que quedan.$"
 
 BattlePyramid_Text_SixTrainersRemaining5::
 	.string "Podrías ser capaz de vencer a los\n"
@@ -700,7 +700,7 @@ BattlePyramid_Text_ZeroTrainersRemaining5::
 
 BattlePyramid_Text_SevenTrainersRemaining6::
 	.string "¿Podrás ganarles a los\n"
-	.string "siete TRAINERS que quedan?$"
+	.string "siete ENTRENADORES que quedan?$"
 
 BattlePyramid_Text_SixTrainersRemaining6::
 	.string "¿Podrás ganarles a los\n"

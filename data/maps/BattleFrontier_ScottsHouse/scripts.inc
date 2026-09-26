@@ -242,7 +242,7 @@ BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
 	.string "{STR_VAR_1} Punto(s) de Batalla.$"
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
-	.string "SCOTT: Mira tus Battle Points\n"
+	.string "SCOTT: Mira tus Puntos de Batalla\n"
 	.string "en tu FRONTIER PASS.\p"
 	.string "Cuanto más éxito tengas aquí en el\n"
 	.string "BATTLE FRONTIER, más Battle\l"
@@ -328,14 +328,14 @@ BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
 	.string "SCOTT: ¡Oh, he oído hablar de ti!\n"
 	.string "¡Cómo dominaste la BATTLE TOWER!\l"
-	.string "¿Venciste a 50 TRAINERS seguidos?\p"
+	.string "¿Venciste a 50 ENTRENADORES seguidos?\p"
 	.string "¡Eso es fantástico!\n"
 	.string "¡Quiero que tengas esto!$"
 
 BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
 	.string "SCOTT: ¡Vaya! ¡He oído hablar de ti!\n"
 	.string "¡Cómo arrasaste en la BATTLE TOWER!\l"
-	.string "¿Venciste a 100 TRAINERS seguidos?\p"
+	.string "¿Venciste a 100 ENTRENADORES seguidos?\p"
 	.string "¡Eso es ridículamente espectacular!\n"
 	.string "¡Tienes que llevarte esto!$"
 

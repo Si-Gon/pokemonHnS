@@ -10,15 +10,15 @@ CableClub_Text_WhichService:
 
 CableClub_Text_TradeUsingLinkCable::
 	.string "Intercambia POKéMON con otro jugador\n"
-	.string "usando el cable GBA Game Link.$"
+	.string "usando el cable cable Game Link de GBA.$"
 
 CableClub_Text_BattleUsingLinkCable::
 	.string "Puedes luchar contra otro ENTRENADOR\n"
-	.string "usando el cable GBA Game Link.$"
+	.string "usando el cable cable Game Link de GBA.$"
 
 CableClub_Text_RecordCornerUsingLinkCable::
 	.string "Usa el RINCÓN DE RÉCORDS con otros\n"
-	.string "usando el cable GBA Game Link.$"
+	.string "usando el cable cable Game Link de GBA.$"
 
 @ Unused
 CableClub_Text_CloseThisMenu:
@@ -445,7 +445,7 @@ CableClub_Text_ExplainWirelessClubFirstTime:
 	.string "POKéMON con tus amigos.\p"
 	.string "Si el Adaptador Wireless no está\n"
 	.string "conectado, puedes usar un\l"
-	.string "cable GBA Game Link.\p"
+	.string "cable cable Game Link de GBA.\p"
 	.string "En ese caso, debes ir al\n"
 	.string "RINCÓN DIRECTO.\p"
 	.string "Espero que disfrutes el Sistema\n"

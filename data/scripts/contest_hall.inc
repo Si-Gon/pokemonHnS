@@ -1701,7 +1701,7 @@ LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
 	.string "Al menos un jugador entró usando\n"
 	.string "el contador de 4 jugadores.\p"
 	.string "Deben haber cuatro jugadores con\n"
-	.string "un cable GBA Game Link.\p"
+	.string "un cable cable Game Link de GBA.\p"
 	.string "Cuando los cuatro estén listos,\n"
 	.string "elige G-MODE (MODO GLOBAL),\l"
 	.string "luego regístrate para entrar.$"
@@ -1734,7 +1734,7 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "debe tener POKéMON Emerald.\p"
 	.string "Deben conectarse entre sí usando\n"
 	.string "Adaptadores Inalámbricos o\l"
-	.string "cables GBA Game Link.\p"
+	.string "cables cable Game Link de GBA.\p"
 	.string "Si hay menos de cuatro jugadores,\n"
 	.string "ENTRENADORES del salón se unirán\l"
 	.string "para completar el grupo de 4.\p"
@@ -1744,7 +1744,7 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 LilycoveCity_ContestLobby_Text_ExplainGMode:
 	.string "G-MODE (MODO GLOBAL) es solo\n"
 	.string "para cuatro jugadores conectados con\l"
-	.string "cables GBA Game Link.\p"
+	.string "cables cable Game Link de GBA.\p"
 	.string "Cada jugador debe tener POKéMON\n"
 	.string "Emerald, Ruby o Sapphire.\p"
 	.string "El CONCURSO inicia cuando todos\n"
@@ -1757,7 +1757,7 @@ LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode:
 	.string "G-MODE no funciona\n"
 	.string "con Adaptadores Inalámbricos.\p"
 	.string "Elige E-MODE o intenta de nuevo\n"
-	.string "usando un cable GBA Game Link.$"
+	.string "usando un cable cable Game Link de GBA.$"
 
 LilycoveCity_ContestLobby_Text_WhichContestMode:
 	.string "¿En qué MODO de CONCURSO quieres\n"

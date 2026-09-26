@@ -122,7 +122,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "Debo admitir que parece bastante\n"
 	.string "entretenido, pero…\p"
 	.string "Soy un purista: prefiero las\n"
-	.string "batallas y TRAINERS fuertes.\p"
+	.string "batallas y ENTRENADORES fuertes.\p"
 	.string "Pero así soy yo.\p"
 	.string "{PLAYER}{KUN}, espero que disfrutes de\n"
 	.string "GYMS, CONTESTS, BATTLE TENT,\l"

@@ -367,7 +367,7 @@ BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
 	.string "Parece que llegaste al límite de\n"
-	.string "Battle Points…\p"
+	.string "Puntos de Batalla…\p"
 	.string "Canjea algunos por premios\n"
 	.string "y luego regresa…$"
 
