@@ -570,7 +570,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 	.string "Elige a los dos POKéMON tras\n"
 	.string "ver el trío del rival.\p"
 	.string "Ganas el torneo al derrotar a\n"
-	.string "cuatro TRAINERS.\p"
+	.string "cuatro ENTRENADORES.\p"
 	.string "El ganador recibirá Puntos de\n"
 	.string "Batalla.\p"
 	.string "Si quieres interrumpir el torneo,\n"

@@ -800,7 +800,7 @@ LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon_Nuzlocke:
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "PROF. BIRCH: Si trabajas con POKéMON\n"
 	.string "y ganas experiencia, serás un\l"
-	.string "TRAINER excelente.\p"
+	.string "ENTRENADOR excelente.\p"
 	.string "Mi hijo, SILVER, también estudia\n"
 	.string "POKéMON mientras me ayuda.\p"
 	.string "{PLAYER}{KUN}, ¿no crees que sería\n"

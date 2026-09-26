@@ -933,7 +933,7 @@ gText_SorryTradeCenterInspections::
 
 @ Unused
 gText_SorryRecordCornerPreparation::
-	.string "I'm terribly sorry. The RECORD CORNER\n"
+	.string "Lo siento mucho. El RINCÓN DE RÉCORDS\n"
 	.string "está en preparación.$"
 
 gText_PlayerHandedOverTheItem::

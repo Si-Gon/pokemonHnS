@@ -396,7 +396,7 @@ BattleFrontier_BattleArenaLobby_Text_OkayToSave:
 
 BattleFrontier_BattleArenaLobby_Text_WhichLevelMode:
 	.string "La BATTLE ARENA tiene dos niveles,\n"
-	.string "NORMAL y HARD.\l"
+	.string "NORMAL y DIFÍCIL.\l"
 	.string "¿Cuál eliges?$"
 
 BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:

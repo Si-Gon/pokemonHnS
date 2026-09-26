@@ -656,7 +656,7 @@ PetalburgWoods_Text_ICantBeWastingTime:
 
 PetalburgWoods_Text_YoureLoadedWithItems:
 	.string "Llevas demasiados objetos.\n"
-	.string "No puedo darte esta GREAT BALL.$"
+	.string "No puedo darte esta SUPER BALL.$"
 
 PetalburgWoods_Text_GoBugPokemonTeam:
 	.string "¡Atrapé muchos POKéMON!\p"

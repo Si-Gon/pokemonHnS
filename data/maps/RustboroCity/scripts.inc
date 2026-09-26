@@ -1128,7 +1128,7 @@ RustboroCity_Text_YouGotItThankYou:
 
 RustboroCity_Text_YoureLoadedWithItems:
 	.string "Llevas demasiados objetos.\n"
-	.string "No puedo darte esta GREAT BALL.$"
+	.string "No puedo darte esta SUPER BALL.$"
 
 RustboroCity_Text_PleaseComeWithMe:
 	.string "¡Disculpa, por favor!\n"

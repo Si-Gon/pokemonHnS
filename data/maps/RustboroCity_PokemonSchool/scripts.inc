@@ -337,7 +337,7 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "Permíteme presentarme.\n"
 	.string "Mi nombre es SCOTT.\p"
 	.string "He viajado por todas partes\n"
-	.string "buscando TRAINERS destacados.\p"
+	.string "buscando ENTRENADORES destacados.\p"
 	.string "Específicamente, busco expertos\n"
 	.string "en batallas POKéMON.\p"
 	.string "Oh, ¿qué es eso?\n"

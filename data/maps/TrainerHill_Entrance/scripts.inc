@@ -387,7 +387,7 @@ TrainerHill_Entrance_Text_ThankYouForPlaying:
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
 	.string "En TRAINER HILL hacemos un\n"
-	.string "evento llamado Time Attack.\p"
+	.string "evento llamado Contrarreloj.\p"
 	.string "Es una carrera que mide cuánto\n"
 	.string "tardas en llegar al dueño en\l"
 	.string "la azotea desde este mostrador.\p"

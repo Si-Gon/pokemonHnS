@@ -1430,7 +1430,7 @@ gTVBreakingNewsText12::
 
 gTVBreakingNewsText08::
 	.string "En ese instante, {STR_VAR_2}\n"
-	.string "echoed with {STR_VAR_1}'s shrieks of\l"
+	.string "resonó con los gritos de {STR_VAR_1}\l"
 	.string "frustration…$"
 
 gTVBreakingNewsText09::
@@ -1439,14 +1439,14 @@ gTVBreakingNewsText09::
 	.string "El ENTRENADOR tuvo que retirarse\n"
 	.string "del combate con el raro {STR_VAR_2}.\p"
 	.string "En ese instante, {STR_VAR_3}\n"
-	.string "echoed with {STR_VAR_1}'s shrieks of\l"
+	.string "resonó con los gritos de {STR_VAR_1}\l"
 	.string "frustration…$"
 
 gTVBreakingNewsText10::
 	.string "Sin embargo, el {STR_VAR_2} huyó sin\n"
 	.string "warning.\p"
 	.string "En ese instante, {STR_VAR_3}\n"
-	.string "echoed with {STR_VAR_1}'s shrieks of\l"
+	.string "resonó con los gritos de {STR_VAR_1}\l"
 	.string "frustration…$"
 
 gTVBreakingNewsText11::
@@ -1567,7 +1567,7 @@ gTVSecretBaseVisitText11::
 gTVSecretBaseVisitText12::
 	.string "Well, well!\n"
 	.string "Hay que reconocérselo a {STR_VAR_1}.\p"
-	.string "The TRAINER's POKéMON showed\n"
+	.string "Los POKéMON del ENTRENADOR mostraron\n"
 	.string "gran promesa de futuro.\p"
 	.string "Representaban las esperanzas\n"
 	.string "y sueños de {STR_VAR_1}.\p"

@@ -1373,7 +1373,7 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 
 SlateportCity_Text_MaybeThisTrainer:
 	.string "SCOTT: Hmm…\n"
-	.string "Tal vez, solo tal vez, este TRAINER…$"
+	.string "Tal vez, solo tal vez, este ENTRENADOR…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
 	.string "SCOTT: ¡Bien! Creo que seremos\n"

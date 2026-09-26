@@ -318,7 +318,7 @@ BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
 	.string "FRONTIER PASS.$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-	.string "{PLAYER} puso su TRAINER CARD\n"
+	.string "{PLAYER} puso su TARJETA DE ENTRENADOR\n"
 	.string "en el FRONTIER PASS.$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
@@ -435,7 +435,7 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
 	.string "Los retos de la BATTLE FRONTIER\n"
 	.string "tienen dos niveles:\l"
-	.string "NORMAL y HARD.$"
+	.string "NORMAL y DIFÍCIL.$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
 	.string "¡El curso NORMAL ya está abierto!\n"
