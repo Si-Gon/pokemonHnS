@@ -4249,7 +4249,7 @@ Route128_Text_HarrisonDefeat:
 	.string "Supongo que era imposible ganar.$"
 
 Route128_Text_HarrisonPostBattle:
-	.string "Hay muchos TRAINERS fuertes\n"
+	.string "Hay muchos ENTRENADORES fuertes\n"
 	.string "en ISLA FARO.\p"
 	.string "¿Crees que esto es demasiado\n"
 	.string "para mí?$"
@@ -4412,7 +4412,7 @@ Route131_Text_SusiePostBattle:
 	.string "¡Ama el mar desesperadamente!$"
 
 Route131_Text_KaraIntro:
-	.string "Why do men love bathing suits so much?\p"
+	.string "¿Por qué aman tanto los trajes de baño?\p"
 	.string "¡Todos me miran!$"
 
 Route131_Text_KaraDefeat:
