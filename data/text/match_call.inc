@@ -991,7 +991,7 @@ MatchCall_PersonalizedText31::
 	.string "¡Me alegra hablar contigo!\p"
 	.string "Me siento llena de vida y renovada\n"
 	.string "en estas aguas termales.\p"
-	.string "He luchado contra TRAINERS novatos\n"
+	.string "He luchado contra ENTRENADORES novatos\n"
 	.string "desde que nos vimos, pero tú\l"
 	.string "sigues siendo el mejor.\p"
 	.string "¡Imagino que serás una EXPERTA\n"

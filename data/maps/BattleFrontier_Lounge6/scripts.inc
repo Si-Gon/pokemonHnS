@@ -58,23 +58,23 @@ BattleFrontier_Lounge6_Text_WouldYouLikeToTrade:
 @	end
 
 @BattleFrontier_Lounge6_Text_PromiseIllBeGoodToIt:
-@	.string "Oh, it's adorable!\n"
-@	.string "Thank you!\l"
-@	.string "I promise I'll be good to it!\p"
-@	.string "Oh! I hope you'll be good to\n"
+@	.string "¡Oh, es adorable!\n"
+@	.string "¡Gracias!\l"
+@	.string "¡Prometo cuidarlo bien!\p"
+@	.string "¡Oh! Espero que seas bueno con\n"
 @	.string "mi {STR_VAR_2}.$"
 @
 @BattleFrontier_Lounge6_Text_DontTradeForAnythingButMon:
-@	.string "Oh, I'm sorry!\n"
-@	.string "I don't intend to trade for anything\l"
+@	.string "¡Oh, lo siento!\n"
+@	.string "No pienso cambiarlo por nada\l"
 @	.string "salvo un {STR_VAR_1}.$"
 @
 @BattleFrontier_Lounge6_Text_WellThatsFineToo:
-@	.string "Oh, you won't?\n"
-@	.string "Well, that's fine, too.\l"
+@	.string "¿Oh, no quieres?\n"
+@	.string "Bueno, tampoco pasa nada.\l"
 @	.string "Por favor, visítanos de nuevo.$"
 @
 @BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined:
 @	.string "Giggle!\n"
-@	.string "A SKITTY is so much cuter than I had\l"
+@	.string "Un SKITTY es mucho más lindo de lo que\l"
 @	.string "imagined. I'm delighted!$"

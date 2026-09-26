@@ -381,7 +381,7 @@ const u8 gText_OakTalk_TentacruelWhirl[] = _(
     "¿O qué protegen?{PAUSE_UNTIL_PRESS}");
 
 
-const u8 gText_RocketRadio[] = _("... ... Ahem, we are\nTEAM ROCKET!\lAfter three years of preparation,\lwe have risen again from the ashes!\lGIOVANNI! Can you hear us?\lWe did it!\lWhere is our boss?\lIs he listening?{PAUSE_UNTIL_PRESS}");
+const u8 gText_RocketRadio[] = _("... ... Ejem, somos\nEQUIPO ROCKET!\lTras tres años de preparación,\lhemos vuelto a surgir de lasshes!\lGIOVANNI! Can you hear us?\lWe did it!\lWhere is our boss?\lIs he listening?{PAUSE_UNTIL_PRESS}");
 const u8 gText_RadioNoSignal[] = _("No hay señal aquí, busca\n en otro lado.{PAUSE_UNTIL_PRESS}");
 const u8 gText_UnownMessage[] = _("??????????????????????????????????\l??????????????????????????????????\l??????????????????????????????????\l??????????????????????????????????{PAUSE_UNTIL_PRESS}");
 const u8 gText_RadioKantoPokeFlute[] = _("RADIO DE LA FLAUTA POKé.{PAUSE_UNTIL_PRESS}");
@@ -1795,7 +1795,7 @@ const u8 gJPText_Player[] = _("プレイヤー"); // Unused
 const u8 gJPText_Sama[] = _("さま"); // Unused
 const u8 gText_DexHoenn[] = _("JOHTO");
 const u8 gText_DexNational[] = _("NACIONAL");
-const u8 gText_PokedexDiploma[] = _("PLAYER: {CLEAR 0x10}{COLOR RED}{SHADOW LIGHT_RED}{PLAYER}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n\nThis document certifies\nthat you have successfully\ncompleted your\n{STR_VAR_1} POKéDEX.\n\n{CLEAR_TO 0x42}{COLOR RED}{SHADOW LIGHT_RED}GAME FREAK");
+const u8 gText_PokedexDiploma[] = _("PLAYER: {CLEAR 0x10}{COLOR RED}{SHADOW LIGHT_RED}{PLAYER}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}\n\nEsto document certifies\nthat you have successfully\ncompleted your\n{STR_VAR_1} POKéDEX.\n\n{CLEAR_TO 0x42}{COLOR RED}{SHADOW LIGHT_RED}GAME FREAK");
 const u8 gJPText_GameFreak[] = _("{COLOR RED}{SHADOW LIGHT_RED}ゲ-ムフリ-ク"); // Unused
 const u8 gText_DiplomaEmpty[] = _("{COLOR RED}{SHADOW LIGHT_RED}"); // Unused
 const u8 gText_Hoenn[] = _("JOHTO/KANTO");
